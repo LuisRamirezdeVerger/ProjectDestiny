@@ -13,6 +13,25 @@
   }
 }
 
+.navBar{
+  display: block;
+  background-color: #282c34;
+  height: 20px;
+  width: auto;
+  margin-top: 5px;
+}
+
+.navList{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  font-size: large;
+  background-color: #19469f;
+  padding: 10px;
+  text-align: justify;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
