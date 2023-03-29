@@ -14,9 +14,13 @@
 }
 
 .navBar{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration-color: aliceblue;
   background-color: #282c34;
-  height: 20px;
+  height: 200px;
+  font-size: 24px;
   width: auto;
   margin-top: 5px;
 }
@@ -28,7 +32,8 @@
   justify-content: space-between;
   font-size: large;
   background-color: #19469f;
-  padding: 10px;
+  margin: 30px;
+  padding-right: 30px;
   text-align: justify;
 }
 
