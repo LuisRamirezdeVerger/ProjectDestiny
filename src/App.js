@@ -7,7 +7,7 @@ import { Link, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Proyectos from './components/Proyectos';
 
 const App = () => {
-//onMouseEnter
+
       return( 
 
       <header className="header">

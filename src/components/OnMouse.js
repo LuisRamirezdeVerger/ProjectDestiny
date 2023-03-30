@@ -1,5 +1,40 @@
 import React, { useState } from 'react';
+//rewrite 
 
+
+//Declaramos la funcion que contiene el evento
+const RatonEncima = () => {
+    //Declaramos 2 variables, (son las que controlan el evento) y le damos el estado de "falso" 
+    const [encima, setEncima] = useState(false);
+
+    //Le damos valor segun convenga
+    const ratonDentro = () => {
+        setEncima(true);
+    };
+
+    const ratonFuera = () => {
+        setEncima(false);
+    };
+
+    //Hasta aqui la funcionalidad, ahora toca hacerla visisible
+    return(
+        <div style={{
+            color: encima ? 'blue': 'black',
+            textAlign: encima ? 'start': 'end'
+        }}
+        //introducimos los eventos
+        //onMouseEnter/Leave, son eventos ya existentes, simplementes las calleamos y decimos que variable tiene que usar
+        onMouseEnter={ratonDentro}
+        onMouseLeave={ratonFuera}
+        >
+            <h1>Tu polla gorda</h1>
+        </div>
+    );
+
+}
+
+
+/*
 const OnMouse = () => {
   const [hover, setHover] = useState(false);
 
@@ -13,7 +48,13 @@ const OnMouse = () => {
 
   return (
     <div
-      style={{ backgroundColor: hover ? 'lightblue' : 'white' }}
+      style={
+        {
+            color: hover ? 'lightblue' : 'black',
+            textAlign: hover ? 'start' : 'center'
+        }
+    }
+
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -21,5 +62,5 @@ const OnMouse = () => {
     </div>
   );
 }
-
-export default OnMouse;
+*/
+export default RatonEncima;
