@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+  background-color: #FA9E05;
+}
+
 .App {
   text-align: center;
 }
@@ -18,27 +24,37 @@
   flex-direction: column;
   text-align: center;
   text-decoration-color: aliceblue;
-  background-color: #282c34;
-  height: 200px;
+  background-color: #4A772F;
+  height: 100px;
   font-size: 24px;
   width: auto;
-  margin-top: 5px;
+}
+
+a{
+  color:black;
 }
 
 .navList{
   display: flex;
+  height: 40px;
+  border-style: dotted;
+  border-color: black;
   flex-direction: row;
   list-style: none;
   justify-content: space-between;
   font-size: large;
-  background-color: #19469f;
-  margin: 30px;
+  color:white;
+  background-color: #A7095C;
+  /* margin: 30px; */
+  margin: left, right 10px; ;
   padding-right: 30px;
   text-align: justify;
 }
 
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #4A772F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -16,8 +16,9 @@ const RatonEncima = () => {
         setEncima(false);
     };
 
-    //Hasta aqui la funcionalidad, ahora toca hacerla visisible
+    //Hasta aqui la funcionalidad, ahora toca hacerla visible
     return(
+        //Creamos un div style, que seria como un css
         <div style={{
             color: encima ? 'blue': 'black',
             textAlign: encima ? 'start': 'end'
@@ -27,7 +28,7 @@ const RatonEncima = () => {
         onMouseEnter={ratonDentro}
         onMouseLeave={ratonFuera}
         >
-            <h1>Tu polla gorda</h1>
+            <h1>El texto cambiará al pasar el ratón por encima </h1>
         </div>
     );
 

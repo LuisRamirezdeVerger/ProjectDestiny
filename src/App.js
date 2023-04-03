@@ -1,19 +1,20 @@
 import './App.css';
-import Counter from './components/Counter';
 import SobreMi from './components/SobreMi';
+import MiSitio from './components/MiSitio';
 //import React, { useState } from 'react'
-import Contador from './components/Counter'
 import { Link, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Proyectos from './components/Proyectos';
 
 const App = () => {
 
       return( 
-
+        
       <header className="header">
+        <head>
+        <title> Portfolio RdV</title>
+        </head>
         <Router>
           <nav className="navBar">
-            {/* <div className="logoNavBar"> */}
             <Link to="/"> Mi sitio </Link>
             
             <ul className="navList">
@@ -23,14 +24,16 @@ const App = () => {
               <li ><Link to ="proyects">Proyectos</Link></li>
               <li ><Link to ="contact">Contacto</Link></li>
             </ul>
-            {/* </div> */}
           </nav>
           <Routes>
             <Route path='/proyects' Component={Proyectos} />
             <Route path='/myself' Component={SobreMi} />
+            <Route path='/' Component={MiSitio} />
           </Routes>
         </Router>
+       
      </header>   
+     
   );
 }
 

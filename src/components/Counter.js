@@ -7,22 +7,30 @@ import { useState } from "react";
 const Counter = () => {
     const [count, setCount] = useState(0);
 
+    if ( count === 10){
+      window.prompt("Enhorabuena! Logro desbloqueado: DALE CLICK!");
+    };
 
   const clickCounter = () => {
     setCount(count + 1)
-  }
+    
+  };
+
+  const resetCounter = () => {
+    setCount(0)
+  };
 
   return (
-    // <div className="App">
-    //   <header className="App-header">
-        
-    //   </header>
     
-    <div>
+    <div style={{textAlign: "center"}}>
       <p>
-        count: {count}
+        Contador: {count}
       </p>
-      <button onClick={clickCounter}> Increment </button>
+      <button onClick={resetCounter}>
+        Reset! 
+      </button>
+      
+      <button onClick={clickCounter}> Pulsa para incrementar </button>
     </div>
   );
 }

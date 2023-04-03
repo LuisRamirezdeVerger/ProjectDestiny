@@ -1,18 +1,26 @@
 import './Proyectos.css'
 import React from "react";
-import OnMouse from './OnMouse';
 import Counter from './Counter';
 import RatonEncima from './OnMouse';
+import Prompt from './Prompt'; 
 
 const Proyectos = () => {
 return(
-    <>
-    <h1>Contador</h1>
-    <Counter />
-    <h1>On Mouse "event"</h1>
-    <RatonEncima />
-    
-    </>
+    <div style={{textAlign: 'center'}}>
+        <div style={{borderStyle: 'dotted'}}>
+            <h1>Contador</h1>
+            <Counter />
+        </div>
+        <br/>
+        <div>
+            <h1>On Mouse "event"</h1>
+            <RatonEncima />
+        </div>
+        <div>
+            <h1>Prompts</h1>
+            <Prompt />
+        </div>
+    </div>
 );
 
 }
