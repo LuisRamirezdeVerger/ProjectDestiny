@@ -13,8 +13,9 @@ const RatonEncima = () => {
     };
 
     const ratonFuera = () => {
-        setEncima(false);
+      setEncima(false);
     };
+
 
     //Hasta aqui la funcionalidad, ahora toca hacerla visible
     return(
@@ -28,7 +29,9 @@ const RatonEncima = () => {
         onMouseEnter={ratonDentro}
         onMouseLeave={ratonFuera}
         >
+          
             <h1>El texto cambiará al pasar el ratón por encima </h1>
+            
         </div>
     );
 

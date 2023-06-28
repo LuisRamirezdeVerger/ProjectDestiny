@@ -11,18 +11,20 @@ const App = () => {
         
       <header className="header">
         <head>
-        <title> Portfolio RdV</title>
+        <title> Project Desiny</title>
         </head>
         <Router>
           <nav className="navBar">
-            <Link to="/"> Mi sitio </Link>
+            <Link to="/"> Project Destiny </Link>
             
             <ul className="navList">
               
-              <li><Link to ="myself">Yo mismo</Link></li>
+              <li><Link to ="nosotros">Quiénes somos</Link></li>
               
-              <li ><Link to ="proyects">Proyectos</Link></li>
-              <li ><Link to ="contact">Contacto</Link></li>
+              <li ><Link to ="tarifas">Tarifas</Link></li>
+              <li ><Link to ="horarios">Horarios disponibles</Link></li>
+              <li ><Link to ="tarifas">Celebraciones realizadas</Link></li>
+              <li ><Link to ="contacto">Contacto</Link></li>
             </ul>
           </nav>
           <Routes>

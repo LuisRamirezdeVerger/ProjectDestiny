@@ -1,0 +1,29 @@
+[33mcommit 88806bfeb9ad7864077eed872c60376348f754da[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Luis a.k.a. Wito <job.wito.uk@gmail.com>
+Date:   Mon Apr 3 19:26:48 2023 +0200
+
+    Basic prompt added. Need more .css!!
+
+[33mcommit 7e14304477e9e8f916254da1c1837c3a6f156d08[m
+Author: Luis a.k.a. Wito <job.wito.uk@gmail.com>
+Date:   Thu Mar 30 15:08:38 2023 +0200
+
+    code cleaned. Keep it up!
+
+[33mcommit da787d282769f1ddc0366fff556b66ae4b295869[m
+Author: Luis a.k.a. Wito <job.wito.uk@gmail.com>
+Date:   Wed Mar 29 13:38:54 2023 +0200
+
+    Some events added. Needs a proper .css
+
+[33mcommit 2ecd4a062ea2d5c05c1c323ad8273e25ead207d9[m
+Author: Luis a.k.a. Wito <job.wito.uk@gmail.com>
+Date:   Sat Mar 25 22:09:59 2023 +0100
+
+    Router imported, navBar created
+
+[33mcommit 7eb716ca906285dcc724c08bff7a2109519fbd21[m
+Author: Luis a.k.a. Wito <job.wito.uk@gmail.com>
+Date:   Thu Mar 23 14:30:59 2023 +0100
+
+    Initialize project using Create React App

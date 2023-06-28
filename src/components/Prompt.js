@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-//linea 14
+
 
 const Prompt = () => {
-    const [ventana, setVentana] = useState('');
+    const [ventana, setVentana] = useState();
 
     const click = () => {
         const inputNombre = window.prompt('Esto es un PROMPT. Ingresa un nombre para que te salude!');
@@ -15,11 +15,16 @@ const Prompt = () => {
         //Termina estooooo
         <div>
             <button onClick={click}> Clickea aquí </button>
+            <div>
             {ventana && <p>Hola, {ventana}</p>}
+            </div>
         </div>
     );
 
 };
+
+
+export default Prompt;
 
 
 
@@ -40,5 +45,3 @@ const Prompt = () => {
 //     </div>
 //   );
 // };
-
-export default Prompt;

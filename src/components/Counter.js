@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import './Counter.css'
 
 
 //colocar esto como componente y exportar :) We got it ^^
@@ -26,11 +26,11 @@ const Counter = () => {
       <p>
         Contador: {count}
       </p>
-      <button onClick={resetCounter}>
+      <button className="boton" onClick={resetCounter}>
         Reset! 
       </button>
       
-      <button onClick={clickCounter}> Pulsa para incrementar </button>
+      <button className="boton" onClick={clickCounter}> Pulsa para incrementar </button>
     </div>
   );
 }
