@@ -3,18 +3,21 @@ import React, { useState } from "react";
 import test from '../images/fotoPruebaWeb.jpg';
 
 
-
 const Galeria = () => {
     
     const [selectedImage, setSelectedImage] = useState(null);
 
-    //const handleImageClick = (image) => {
-    //    setSelectedImage(image);
-    //};
-
     const handleImageClick = (image) => {
-        setSelectedImage((prevImage) => (prevImage === image ? null : image));
-    };
+        if (selectedImage === image) {
+            setSelectedImage(null);
+        } else {
+            setSelectedImage(image)
+        }
+    }
+
+    //const handleImageClick = (image) => {
+    //    setSelectedImage((prevImage) => (prevImage === image ? null : image));
+    //};
 
     const images = [
 
@@ -30,15 +33,18 @@ const Galeria = () => {
       ];
 
 return(
-   <div className="galeria" onClick={() => setSelectedImage(null)}>
-
+    //
+   <div className="galeria" onMouseLeave={() => setSelectedImage(null)}>
+    
         {images.map((image,index) => (
             <img
                 key={index}
                 src={image.url}
                 alt={image.title}
-                onClick={() => handleImageClick(image)}
-                
+                className={`galeria-image ${
+                    selectedImage === image ? "galeria-image-selected" : ""
+                  }`}
+                  onClick={() => handleImageClick(image)}
             />
         ))}
 
