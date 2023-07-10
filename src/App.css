@@ -18,6 +18,30 @@ body{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.navBar ul li a {
+  display: flex;
+  justify-content: center;
+  color: #000; /*Color Inicial*/
+  transition: color 0.3s ease-in-out; /*Transición animada*/
+  text-align: center;
+  justify-content: center;
+}
+
+/*Hay que programar que los item esten siempre
+en el centro!! */
+
+.navBar ul li a:hover {
+  color: white; /* Color al pasar el cursor */
+}
+
+
+li {
+  border-style: dotted;
+  border-color: #000;
+  font-size: auto;
+  justify-items: auto;
+  text-align: center;
+}
 
 .navBar{
   display: flex;
@@ -25,21 +49,25 @@ body{
   text-align: center;
   text-decoration-color: aliceblue;
   background-color: #4A772F;
-  height: 100px;
+  height: 100px auto;
   font-size: 24px;
   width: auto;
 }
 
 a{
   color:black;
+  text-align: center;
 }
 
 .navList{
   display: flex;
-  height: 40px;
-  border-style: dotted;
-  border-color: black;
   flex-direction: row;
+  
+  height: 40px auto;
+  border-radius: 30px;
+  border-style: none;
+  border-color: white;
+  
   list-style: none;
   justify-content: space-between;
   font-size: large;
@@ -48,7 +76,7 @@ a{
   /* margin: 30px; */
   margin: left, right 10px; ;
   padding-right: 30px;
-  text-align: justify;
+  text-align:right center;
 }
 
 
