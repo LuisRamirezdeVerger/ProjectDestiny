@@ -1,10 +1,15 @@
 .galeria{
     display: flex;
-    width: auto;
+    width: auto -100px;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
+    background-color: aqua;
+    max-width: 1000px;
+    align-content: center;
 }
+
+
 
 .galeria img{
     width: 200px;
