@@ -1,14 +1,19 @@
 .galeria{
     display: flex;
-    width: auto -100px;
+    width: auto;
+    /* Estilo del borde */
+    border: 3px black solid;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     background-color: aqua;
-    max-width: 1000px;
+    align-items: center;
+    max-width: 29vw;
     align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 1vh;
 }
-
 
 
 .galeria img{
@@ -21,6 +26,7 @@
 
 
 .imagen-seleccionada {
+    display: flex;
     text-align: center;
     position: absolute;
     top: 0;

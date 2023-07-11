@@ -23,8 +23,10 @@ body{
 }
 
 .navBar ul li a:hover {
+  display: flex;
   color: white; /* Color al pasar el cursor */
-  /* pruebas de "hover" */
+  /* pruebas */
+  flex-shrink: 1;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -51,6 +53,7 @@ li {
   background-color: #4A772F;
   height: 100px auto;
   font-size: 24px;
+  border-bottom: 3px black solid;
   width: 100vw auto;
 }
 
@@ -67,7 +70,7 @@ a{
   border-style: none;
   border-color: white;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: large;
   color:white;
   /* margin: 30px; */
