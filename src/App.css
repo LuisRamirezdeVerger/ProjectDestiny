@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body{
-  background-color: #FA9E05;
+  background-color: #0892a5;
 }
 
 .App {
@@ -11,6 +11,33 @@ body{
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: column;
+  text-decoration-color: aliceblue;
+  background-color: #bb7e5d;
+  height: auto;
+  font-size: 4vw;
+  border-bottom: 0.03em black solid;
+  width: 100%;
+  font-family: 'Fun Party', sans-serif;
+}
+
+li {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  text-align: center;
+  border-style: groove;
+  border-color: #000;
+  border-radius: 3vw;
+  font-size: auto;
+  justify-items: auto;
+  justify-content: center;
+  padding: 1.5vw;
+  background-color: #dbb68f;
 }
 
 .navBar ul li a {
@@ -28,33 +55,7 @@ body{
   /* pruebas */
   flex-shrink: 1;
   font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-li {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  border-style: groove;
-  border-color: #000;
-  border-radius: 20px;
-  font-size: auto;
-  justify-items: auto;
-  justify-content: center;
-  text-align: right;
-  padding: 20px;
-  background-color: #A7095C;
-}
-
-.navBar{
-  display: flex;
-  flex-direction: column;
-  text-decoration-color: aliceblue;
-  background-color: #4A772F;
-  height: 100px auto;
-  font-size: 24px;
-  border-bottom: 3px black solid;
-  width: 100vw auto;
+  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
 }
 
 a{
@@ -65,8 +66,8 @@ a{
 .navList{
   display: flex;
   flex-direction: row;
-  height: 40px auto;
-  border-radius: 30px;
+  height: 9vw;
+  border-radius: 9vw;
   border-style: none;
   border-color: white;
   list-style: none;
@@ -74,12 +75,10 @@ a{
   font-size: large;
   color:white;
   /* margin: 30px; */
-  margin: left, right 10px; ;
-  padding-right: 30px;
+  margin: left, right 1vw;
+  padding-right: 3vw;
   text-align: center;
 }
-
-
 
 .App-header {
   background-color: #4A772F;

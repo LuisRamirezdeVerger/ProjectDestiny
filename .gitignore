@@ -6,6 +6,9 @@
 /public
 .pnp.js
 /components
+/images
+da
+colorCode.txt
 
 # testing
 /coverage

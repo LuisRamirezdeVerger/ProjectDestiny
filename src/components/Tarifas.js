@@ -1,28 +1,20 @@
-import './Proyectos.css'
+import './Tarifas.css'
 import React from "react";
-import Counter from './Counter';
-import RatonEncima from './OnMouse';
-import Prompt from './Prompt'; 
 
-const Proyectos = () => {
+const Tarifas = () => {
 return(
-    <div style={{textAlign: 'center'}}>
-        <div style={{borderStyle: 'dotted'}}>
-            <h1>Contador</h1>
-            <Counter />
-        </div>
-        <br/>
-        <div>
-            <h1>On Mouse "event"</h1>
-            <RatonEncima />
-        </div>
-        <div>
-            <h1>Prompts</h1>
-            <Prompt />
-        </div>
+    <div className='tarifas'>
+        <div className='estiloTarifa'>
+            <h1>Estas son nuestras tarifas 1</h1>
+       </div>
+       <div className='separador'></div>
+       <div className='estiloTarifa'>
+            <h1>Estas son nuestras tarifas 2</h1>
+       </div>
+       <div className='separador'></div>
     </div>
 );
 
 }
 
-export default Proyectos;
+export default Tarifas;

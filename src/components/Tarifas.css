@@ -1,0 +1,21 @@
+.tarifas{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.separador{
+    height: 5vh;
+    border: black 3px;
+    border-bottom: solid;
+    border-top: solid;
+    background-color: white;
+}
+.estiloTarifa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+}
