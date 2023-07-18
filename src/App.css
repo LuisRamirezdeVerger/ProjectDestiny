@@ -17,8 +17,8 @@ body{
   display: flex;
   flex-direction: column;
   text-decoration-color: aliceblue;
-  background-color: #bb7e5d;
-  height: auto;
+  background-color: #bb7e5d;  
+  height: 25vh;
   font-size: 4vw;
   border-bottom: 0.03em black solid;
   width: 100%;
@@ -28,6 +28,7 @@ body{
 li {
   display: flex;
   width: auto;
+  height: 2vh;
   flex-direction: row;
   text-align: center;
   border-style: groove;
@@ -58,14 +59,21 @@ li {
   /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
 }
 
-a{
-  color:black;
+.titulo{
+  display: flex;
+  flex-wrap: nowrap;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  height: 15vh;
+  width: 100%;
 }
 
 .navList{
   display: flex;
   flex-direction: row;
+  align-items: center   ;
   height: 9vw;
   border-radius: 9vw;
   border-style: none;

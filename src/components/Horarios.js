@@ -1,28 +1,18 @@
-import './Proyectos.css'
+import './Horarios.css'
 import React from "react";
-import Counter from './Counter';
-import RatonEncima from './OnMouse';
-import Prompt from './Prompt'; 
 
-const Proyectos = () => {
+const Horarios = () => {
 return(
     <div style={{textAlign: 'center'}}>
-        <div style={{borderStyle: 'dotted'}}>
-            <h1>Contador</h1>
-            <Counter />
+        <div className='titulo'>
+            <h1>Aqui tendremos los horarios: Libres, ocupados o tengamos un evento concertado</h1>
         </div>
-        <br/>
-        <div>
-            <h1>On Mouse "event"</h1>
-            <RatonEncima />
-        </div>
-        <div>
-            <h1>Prompts</h1>
-            <Prompt />
+        <div className='calendario'>
+            El calendario que muestra los días viene aquí
         </div>
     </div>
 );
 
 }
 
-export default Proyectos;
+export default Horarios;

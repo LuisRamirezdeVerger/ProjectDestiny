@@ -1,28 +1,27 @@
-import './Proyectos.css'
+import './Contacto.css'
 import React from "react";
-import Counter from './Counter';
-import RatonEncima from './OnMouse';
-import Prompt from './Prompt'; 
 
-const Proyectos = () => {
+const Contacto = () => {
 return(
     <div style={{textAlign: 'center'}}>
-        <div style={{borderStyle: 'dotted'}}>
-            <h1>Contador</h1>
-            <Counter />
-        </div>
-        <br/>
-        <div>
-            <h1>On Mouse "event"</h1>
-            <RatonEncima />
-        </div>
-        <div>
-            <h1>Prompts</h1>
-            <Prompt />
-        </div>
+       <div style={{border: 'solid 2px'}} className='titulo'>
+            <h1>Esta es la pagina de contacto</h1>
+       </div>
+       <div className='comoLlegar'>
+            <h1>Podemos poner diferentes formas de llegar</h1>
+       </div>
+       <div className='metodos'>
+            <h1>A parte, los diferentes metodos de contacto</h1>
+            <ul>
+                <li>Telefono 1</li>
+                <li>Telefono 2</li>
+                <li>Correo</li>
+            </ul>
+            <p>Con sus links y todo</p>
+       </div>
     </div>
 );
 
 }
 
-export default Proyectos;
+export default Contacto;
