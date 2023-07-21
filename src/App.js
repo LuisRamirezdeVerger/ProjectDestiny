@@ -20,16 +20,16 @@ const App = () => {
               <ul className="navList">
                 <li><Link to ="nosotros">Quiénes somos</Link></li>
                 <li ><Link to ="tarifas">Tarifas</Link></li>
-                <li ><Link to ="horarios">Horarios disponibles</Link></li>
-                <li ><Link to ="celebraciones">Celebraciones realizadas</Link></li>
+                <li ><Link to ="horarios">Horarios disponibles(reservas)</Link></li>
+                {/*<li ><Link to ="celebraciones">Celebraciones realizadas</Link></li>*/}
                 {/* <li ><Link to ="calendario">Calendario de eventos</Link></li> */}
                 <li ><Link to ="galeria">Galería</Link></li>
                 <li ><Link to ="contacto">Contacto</Link></li>
               </ul>
             </nav>
-        </header>    
+        </header>   
 
-        <Outlet />
+        <Outlet />  
 
         <Routes>
               <Route path='/nosotros' element={<SobreMi/>} />
@@ -42,6 +42,8 @@ const App = () => {
               <Route path='/' element={<MiSitio/>} />
         </Routes>
       </Router>
+
+      
    );
 };
 

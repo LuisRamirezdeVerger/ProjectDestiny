@@ -12,10 +12,44 @@
     border-top: solid;
     background-color: white;
 }
-.estiloTarifa{
+.estiloTarifa1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     height: 45vh;
+}
+
+.estilo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.textoEstilo{
+    display: block;
+}
+
+.tarifasEstilo{
+    display: flex;
+    flex-direction: row;
+}
+
+.estilo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.textoEstilo2{
+    display: block;
+}
+
+.tarifasEstilo2{
+    display: flex;
+    flex-direction: row;
 }
