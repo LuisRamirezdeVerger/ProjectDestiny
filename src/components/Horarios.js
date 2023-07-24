@@ -10,7 +10,7 @@ const Horarios = () => {
     const getDayColor = (date) => {
         //Función para cmabiar el color del día
         const day = date.getDate();
-        return day % 2 === 0 ? 'red' : 'blue';
+        return day === 1 ? 'red' : day === 3 ? 'green': 'blue';
     };
 
     return(
