@@ -41,9 +41,12 @@ const App = () => {
               <Route path='/contacto' element={<Contacto/>} />
               <Route path='/' element={<MiSitio/>} />
         </Routes>
-      </Router>
 
-      
+        <footer>
+          <h1>Aqui va el pie de página</h1>
+          {/* //WiTech, all you need is tech... */}
+        </footer>
+      </Router>
    );
 };
 

@@ -73,7 +73,7 @@ li {
 .navList{
   display: flex;
   flex-direction: row;
-  align-items: center   ;
+  align-items: center;
   height: 9vw;
   border-radius: 9vw;
   border-style: none;
@@ -101,4 +101,12 @@ li {
 
 .App-link {
   color: #61dafb;
+}
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  background-color: gray;
+  color: white;
 }
