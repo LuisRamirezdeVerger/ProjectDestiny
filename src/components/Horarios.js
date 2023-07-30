@@ -10,13 +10,27 @@ const Horarios = () => {
     const getDayColor = (date) => {
         //Función para cmabiar el color del día
         const day = date.getDate();
-        return day === 1 ? 'red' : day === 3 ? 'green': 'blue';
+        const month = date.getMonth();
+
+        if (month === 6){
+            if (day >=3  && day <= 5 ){
+            return 'blue';
+        } else if (day === 6 || day === 7){
+            return 'red';
+        } else if (day === 8) {
+            return 'blue';
+        }
+    }
+
+    return 'green';
+
+        // return day === 1 ? 'red' : day === 3 ? 'green': 'blue';
     };
 
     return(
         <div style={{textAlign: 'center'}}>
             <div className='titulo'>
-                <h1>Aqui tendremos los horarios: Libres, ocupados o tengamos un evento concertado</h1>
+                <h1>Aqui tendremos las leyendas: Libres verde, ocupados rojo y azul evento concertado</h1>
             </div>
             <div className='calendario'>
                 <Calendar 
