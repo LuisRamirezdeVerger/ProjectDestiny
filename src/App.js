@@ -2,6 +2,7 @@ import './App.css';
 import { Link, BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
 import SobreMi from './components/SobreMi';
 import Footer from './components/Footer';
+import Tech from './components/Tech';
 import MiSitio from './components/MiSitio';
 import Horarios from './components/Horarios';
 import Tarifas from './components/Tarifas';
@@ -15,7 +16,7 @@ const App = () => {
         <header className="header">
           <title> La Casa del Boss</title>
             <nav className="navBar">
-              <Link to="/nosotros" className='titulo'> La Casa del Boss </Link>
+              <Link to="/" className='titulo'> La Casa del Boss </Link>
               <ul className="navList">
                 <li><Link to ="nosotros">Quiénes somos</Link></li>
                 {/* <li ><Link to ="tarifas">Tarifas</Link></li> */}
@@ -36,6 +37,7 @@ const App = () => {
               <Route path='/horarios' element={<Horarios/>} />
               <Route path='/galeria' element={<Galeria />} />
               <Route path='/contacto' element={<Contacto/>} />
+              <Route path='/tech' element={<Tech/>} />
               <Route path='/' element={<MiSitio/>} />
         </Routes>
 

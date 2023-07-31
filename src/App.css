@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+@font-face {
+  font-family: 'bodoni-72-smallcaps-book';
+  src: url('../public/fonts/bodoni-72-smallcaps-book.ttf') format('truetype');
+}
+
 body{
   background-color: #0892a5;
+  font-family: 'bodoni-72-smallcaps-book', sans-serif;
 }
 
 .App {
   text-align: center;
+  font-family: 'bodoni-72-smallcaps-book';
+  justify-content: center;
 }
 
 .navBar{
@@ -57,7 +65,7 @@ li {
 
 .titulo{
   display: flex;
-  text-align: center;
+  font-family: 'bodoni-72-smallcaps-book';  text-align: center;
   align-items: center;
   justify-content: center;
   color:black;
