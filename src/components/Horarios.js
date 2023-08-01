@@ -28,8 +28,8 @@ const Horarios = () => {
     };
 
     return(
-        <div style={{textAlign: 'center'}}>
-            <div className='titulo'>
+        <div className='horarioBackground' style={{textAlign: 'center'}}>
+            <div className='horarioTitulo'>
                 <h1>Aqui tendremos las leyendas: Libres verde, ocupados rojo y azul evento concertado</h1>
             </div>
             <div className='calendario'>

@@ -4,7 +4,7 @@ import nine from '../images/9.png';
 
 const Contacto = () => {
 return(
-    <div style={{textAlign: 'center'}}>
+    <div className='contactoBackground' style={{textAlign: 'center'}}>
        <div className='tituloContacto'>
             <h1>¡Contacta con nosotros!</h1>
        </div>

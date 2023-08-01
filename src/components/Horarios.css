@@ -1,8 +1,22 @@
+.horarioBackground{
+    background-image: url('../images/backgrounds/mazinger47Derecha.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .calendario{
     display: flex;
+    padding-right: 30vw;
     flex-direction: row;
     justify-content: center;
     border-style: none;
     align-items: center;
-    height: 50vh;
+    height: 70vh;
+}
+
+.horarioTitulo{
+    display: flex;
+    flex-direction: column;
+    color: white;
 }

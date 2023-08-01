@@ -1,3 +1,10 @@
+.contactoBackground{
+    background-image: url('../images/backgrounds/chicaFlechasDerecha.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .metodos{
     display: flex;
     flex-direction: column;

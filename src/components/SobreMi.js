@@ -3,7 +3,8 @@ import React from "react";
 
 const SobreMi = () => {
   return (
-    <div className="liveLoveCodess" style={{textAlign: 'center'}}>
+    <div className="nosotrosMain">
+    <div className="quienesSomosBackground" style={{textAlign: 'center'}}>
       <h1>"La Casa del Boss"</h1>
       <p>
         es una empresa que se abre paso en la industria de organización de
@@ -79,6 +80,7 @@ const SobreMi = () => {
       </p>
       ¡Contáctanos hoy mismo y descubre cómo podemos hacer que tu próximo evento
       sea simplemente inolvidable!
+    </div>
     </div>
   );
 };

@@ -14,7 +14,6 @@ const App = () => {
     return( 
       <Router>  
         <header className="header">
-          <title> La Casa del Boss</title>
             <nav className="navBar">
               <Link to="/" className='titulo'> La Casa del Boss </Link>
               <ul className="navList">
@@ -41,11 +40,7 @@ const App = () => {
               <Route path='/' element={<MiSitio/>} />
         </Routes>
 
-        {/* <footer>
-          <h1>Aqui va el pie de página</h1>
-          /* //WiTech, all you need is tech... */}
-       {/* </footer> */}
-       <br/><br/><Footer/>
+      <Footer/>
       </Router>
    );
 };
