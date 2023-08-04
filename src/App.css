@@ -5,10 +5,17 @@
   src: url('../public/fonts/bodoni-72-smallcaps-book.ttf') format('truetype');
 }
 
+.header{
+  height: 15vh;
+}
+
 body{
+  display: flex;
+  flex-direction: column;
   background-color: #0892a5;
   font-family: 'bodoni-72-smallcaps-book', sans-serif;
   padding-bottom: 8.5vh;
+  width: 100%;
 }
 
 .App {
@@ -22,7 +29,7 @@ body{
 .navBar{
   display: flex;
   flex-direction: row;
-  text-decoration-color: aliceblue;
+  /* text-decoration-color: aliceblue; */
   background-color: #bb7e5d;  
   height: 15vh;
   font-size: 4vw;
@@ -39,8 +46,8 @@ li {
   text-align: center;
   border-style: groove;
   border-color: #000;
-  border-radius: 3vw;
-  font-size: auto;
+  border-radius: 3vh;
+  font-size: 2.5vw;
   justify-items: auto;
   justify-content: center;
   padding: 1.5vw;
@@ -55,6 +62,7 @@ li {
   transition: color 0.3s ease-in-out; /*Transición animada*/
   text-align: center;
   align-items: center;
+  margin: 10px;
 }
 
 .navBar ul li a:hover {
@@ -62,7 +70,7 @@ li {
   color: white; /* Color al pasar el cursor */
   /* pruebas */
   /* flex-shrink: 1; */
-  font-size: 30px;
+  font-size: 2.5vw;
   /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
 }
 
@@ -72,7 +80,7 @@ li {
   align-items: center;
   justify-content: center;
   color:black;
-  height: 15vh;
+  height: 8vh;
   width: 50%;
 }
 
@@ -85,26 +93,11 @@ li {
   border-color: white;
   list-style: none;
   justify-content: space-around;
-  font-size: large;
+  font-size: 1.8vw;
   color:white;
   margin-right: 9vw;
   margin-left: 9vw;
   text-align: center;
-}
-
-.App-header {
-  background-color: #4A772F;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 footer{
@@ -113,4 +106,45 @@ footer{
   justify-content: flex-end;
   background-color: gray;
   color: white;
+}
+
+/* Estilos para smartphones*/
+@media (max-width: 768px){
+  .navBar {
+    height: 15vh;
+    font-size: 6vw;
+  }
+
+  ul {
+    height: auto;
+    width: 20vw;
+  }
+
+  li{
+    height: 8vh;
+    width: 10vw;
+    font-size: 4vw;
+    font-size: 4vw;
+  }
+
+  .navBar ul li a:hover{
+    font-size: 4vw;
+  }
+
+  .titulo {
+    font-size: 6vw;
+    height: 20vh;
+  }
+
+  .navList {
+    height: 12vh;
+    width: 50%;
+    font-size: 4vw;
+    /* margin-right: 5vw;
+    margin-left: 5vw; */
+  }
+
+  footer {
+    font-size: 3vw;
+  }
 }

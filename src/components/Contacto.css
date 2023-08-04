@@ -1,8 +1,12 @@
 .contactoBackground{
+    display: flex;
+    flex-direction: column;
     background-image: url('../images/backgrounds/chicaFlechasDerecha.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100.1vw;
+    text-shadow: 2px 2px 3px white;
 }
 
 .metodos{
@@ -11,6 +15,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-shadow: none;
 }
 
 .metodosLista{
@@ -24,29 +29,35 @@
 
 .comoLlegar{
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
-}
-
-.imagen{
-    display: block;
-    width: 10vw;
-    height: 10vh;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .imageLlegar{
-    display: block;
-    justify-content: center;
-    height: 3vh;
-    width: 3vw;
-}
-img{
     display: flex;
+    flex-direction: column;
+    background-image: url('/src/images/maps.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px rgba(255, 255, 255, 0.8);
     height: 50vh;
     width: 50vw;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 30px;
+}
+
+@media (max-width: 768px){
+    .metodosLista{
+        width: 75vw;
+    }
+
+    .contactoLi {
+        display: flex;
+        width: 75vw;
+        text-align: center;
+        align-items: center;
+    }
 }

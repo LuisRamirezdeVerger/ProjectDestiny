@@ -1,9 +1,11 @@
 .background{
+    display: flex;
+    flex-direction: column;
     background-image: url('../images/backgrounds/b4.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 100.1vw;
     height: 100%;
 }
 
@@ -17,7 +19,8 @@
     justify-content: center;
     background-color: #06908f;
     align-items: center;
-    max-width: 43vw;
+    min-width: 40vw;
+    max-width: 57vw;
     align-content: center;
     text-align: center;
     margin: auto;
@@ -32,8 +35,10 @@
     height: 200px;
     object-fit: cover;
     justify-content: center;
+    text-align: center;
     margin: 10px;
     cursor: pointer;
+    border: solid, 3px, rgba(255, 255, 255, 1);
 }
 
 

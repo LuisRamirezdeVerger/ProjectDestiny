@@ -12,7 +12,7 @@ const Horarios = () => {
         const day = date.getDate();
         const month = date.getMonth();
 
-        if (month === 6){
+        if (month === 7){
             if (day >=3  && day <= 5 ){
             return 'blue';
         } else if (day === 6 || day === 7){
@@ -29,9 +29,23 @@ const Horarios = () => {
 
     return(
         <div className='horarioBackground' style={{textAlign: 'center'}}>
-            <div className='horarioTitulo'>
+            {/* <div className='horarioTitulo'>
                 <h1>Aqui tendremos las leyendas: Libres verde, ocupados rojo y azul evento concertado</h1>
-            </div>
+            </div> */}
+            <div className='leyenda'>
+        <div className='leyenda-item'>
+          <div className='leyenda-color' style={{ backgroundColor: 'green' }} />
+          <div className='leyenda-text'>El color verde indica "Sala disponible"</div>
+        </div>
+        <div className='leyenda-item'>
+          <div className='leyenda-color' style={{ backgroundColor: 'red' }} />
+          <div className='leyenda-text'>El color rojo indica "Sala ocupada"</div>
+        </div>
+        <div className='leyenda-item'>
+          <div className='leyenda-color' style={{ backgroundColor: 'blue' }} />
+          <div className='leyenda-text'>El color azul indica "Evento concertado"</div>
+        </div>
+      </div>
             <div className='calendario'>
                 <Calendar 
                 value={date} 

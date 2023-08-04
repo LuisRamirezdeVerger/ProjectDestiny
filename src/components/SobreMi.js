@@ -4,7 +4,7 @@ import React from "react";
 const SobreMi = () => {
   return (
     <div className="nosotrosMain">
-    <div className="quienesSomosBackground" style={{textAlign: 'center'}}>
+    <div className="quienesSomosBackground" >
       <h1>"La Casa del Boss"</h1>
       <p>
         es una empresa que se abre paso en la industria de organización de

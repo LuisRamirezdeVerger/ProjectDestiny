@@ -1,8 +1,11 @@
 .horarioBackground{
+    display: flex;
+    flex-direction: column;
     background-image: url('../images/backgrounds/mazinger47Derecha.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100.1vw;
 }
 
 .calendario{
@@ -20,3 +23,33 @@
     flex-direction: column;
     color: white;
 }
+
+/* --------------------------------------------------- */
+
+/* Resto de tus estilos aquí */
+
+.leyenda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .leyenda-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .leyenda-color {
+    width: 30px;
+    height: 3px;
+    margin-right: 2px;
+    margin-left: 5px;
+  }
+  
+  .leyenda-text {
+    font-size: 27px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
