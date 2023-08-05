@@ -15,15 +15,15 @@ const App = () => {
       <Router>  
         <header className="header">
             <nav className="navBar">
-              <Link to="/" className='titulo'> La Casa del Boss </Link>
+              <Link to="/" className='tituloNavBar'></Link>
               <ul className="navList">
-                <li><Link to ="nosotros">Quiénes somos</Link></li>
+                <li className='liApp'><Link to ="nosotros">Nosotros</Link></li>
                 {/* <li ><Link to ="tarifas">Tarifas</Link></li> */}
-                <li ><Link to ="horarios">Horarios disponibles(reservas)</Link></li>
+                <li className='liApp'><Link to ="horarios">Reservas</Link></li>
                 {/*<li ><Link to ="celebraciones">Celebraciones realizadas</Link></li>*/}
                 {/* <li ><Link to ="calendario">Calendario de eventos</Link></li> */}
-                <li ><Link to ="galeria">Galería</Link></li>
-                <li ><Link to ="contacto">Contacto</Link></li>
+                <li className='liApp'><Link to ="galeria">Galería</Link></li>
+                <li className='liApp'><Link to ="contacto">Contacto</Link></li>
               </ul>
             </nav>
         </header>   

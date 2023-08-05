@@ -27,6 +27,14 @@
     width: 30vw;
 }
 
+.contactoLi {
+    display: flex;
+    width: 75vw;
+    text-align: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
 .comoLlegar{
     display: flex;
     flex-direction: column;
