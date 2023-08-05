@@ -21,3 +21,8 @@
     color: white;
 }
 
+@media (max-width: 768px) {
+    .quienesSomosBackground{
+        background-size: cover;
+    }
+}

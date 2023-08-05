@@ -8,21 +8,21 @@ const MiSitio = () => {
           Bienvenid@ a "La Casa del Boss":
         </h1>
 
-        <p>
+        <p className="pTexto">
           Tu destino de eventos y celebraciones excepcionales. Somos una empresa
           especializada en la organización de eventos y alquiler de espacios,
           ofreciendo una nueva alternativa moderna para que vivas momentos
           inolvidables.
         </p>
 
-        <p>
+        <p className="pTexto">
           Nuestro enfoque y filosofía se centran en brindarte un lugar
           visualmente espectacular y llamativo, donde podrás disfrutar de
           eventos pre-planificados o reservar el local para celebrar tu propia
           fiesta, reunión, meeting o conferencia.
         </p>
 
-        <p>
+        <p className="pFinal">
           Atentamente, <br /> La Casa del Boss
         </p>
       </div>

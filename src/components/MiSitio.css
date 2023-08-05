@@ -18,3 +18,29 @@
   font-size: 4vh;
   text-shadow: 2px 2px 3px black;
 }
+
+@media (max-width: 768px) {
+  .background-miSitio{
+    height: 141vh;
+    padding-bottom: 0;
+    /* background-size: cover; */
+  }
+
+  .quienesSomos{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
+  .pFinal{
+    padding-bottom: 0;
+  }
+
+  .pTexto{
+    margin-top: 0;
+    margin-right: 0;
+    width: 90vw;
+    text-align: justify;
+    justify-items: center;
+  }
+}
