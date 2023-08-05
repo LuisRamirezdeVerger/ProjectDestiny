@@ -15,24 +15,34 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-shadow: none;
+    text-shadow: 2px 2px 3px white;
 }
 
 .metodosLista{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 2vw;
     text-align: center;
     width: 30vw;
+    height: 40vh;
 }
 
 .contactoLi {
+    background-color: white;
     display: flex;
-    width: 75vw;
+    height: 10vh;
+    width: 50vw;
+    border: solid 2px black;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
     align-items: center;
-    font-size: 4vh;
+    font-size: 3.5vh;
+    background-color: #bb7e5d;
+    border-radius: 3vw;
+    text-shadow: white 1px;
 }
 
 .comoLlegar{

@@ -7,6 +7,7 @@
 
 .header{
   height: 15vh;
+  width: 100%;
 }
 
 body{
@@ -22,7 +23,7 @@ body{
   text-align: center;
   font-family: 'bodoni-72-smallcaps-book';
   justify-content: center;
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
 }
 
@@ -34,8 +35,8 @@ body{
   flex-direction: row;
   /* text-decoration-color: aliceblue; */
   background-color: #bb7e5d;  
-  height: 15vh;
-  border-bottom: 0.03em black solid;
+  height: 14.8vh;
+  border-bottom: 0.3em black solid;
   width: 100vw;
   font-family: 'Fun Party', sans-serif;
 }
@@ -43,11 +44,13 @@ body{
 .liApp {
   display: flex;
   width: 100%;
-  height: 8vh;
+  height: 5vh;
   flex-direction: row;
   text-align: center;
   border-style: groove;
   border-color: #000;
+  justify-items: center;
+  margin: 1rem;
   border-radius: 3vw;
   font-size: 2.5vw;
   padding: 1.5vw;
@@ -103,7 +106,7 @@ body{
   flex-direction: row;
   align-items: center;
   text-align: center;
-  /* height: 14vh; */
+  height: 10vh;
   width: 50vw;
   border-style: none;
   border-color: white;
@@ -111,19 +114,13 @@ body{
   justify-content: space-between;
   font-size: 1.8vw;
   color:white;
+  margin: 6vw;
   margin-right: 6vw;
   margin-left: 6vw;
   text-align: center;
   align-self: center;
 }
 
-footer{
-  display: flex;
-  text-align: center;
-  justify-content: flex-end;
-  background-color: gray;
-  color: white;
-}
 
 /* Estilos para smartphones*/
 @media (max-width: 768px){
@@ -144,7 +141,7 @@ footer{
   }
 
   .liApp{
-    /* height: 8vh; */
+    height: 8vh;
     width: 8vw;
     font-size: 8vw;
     border-radius: 10vh;
@@ -158,13 +155,6 @@ footer{
   .titulo {
     font-size: 6vw;
     height: 20vh;
-  }
-
-  .navList {
-
-
-    /* margin-right: 5vw;
-    margin-left: 5vw; */
   }
 
   footer {
