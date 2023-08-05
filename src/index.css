@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 768px) {
+  .navBar a {
+    font-size: 4vw; /* Tamaño de fuente reducido para dispositivos móviles */
+  }
+
+  .navBar ul li a:hover {
+    font-size: 5vw; /* Tamaño de fuente reducido para dispositivos móviles */
+  }
+
+  .tituloNavBar {
+    font-size: 12vw; /* Tamaño de fuente reducido para dispositivos móviles */
+  }
+
+  footer {
+    font-size: 6vw; /* Tamaño de fuente reducido para dispositivos móviles */
+  }
+}

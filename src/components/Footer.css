@@ -22,3 +22,7 @@
   .footer__text2 {
     font-size: 0.9vw;
   }
+
+  @media (max-width: 768px) {
+    
+  }
