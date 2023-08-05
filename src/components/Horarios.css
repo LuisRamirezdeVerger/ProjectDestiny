@@ -32,24 +32,42 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 5%; /* Ajusta el margen superior al 5% del contenedor que contiene .leyenda */
   }
   
   .leyenda-item {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 2%; /* Margen derecho del 2% del contenedor que contiene .leyenda-item */
   }
   
   .leyenda-color {
-    width: 30px;
-    height: 3px;
-    margin-right: 2px;
-    margin-left: 5px;
+    width: 5%; /* Ancho del .leyenda-color al 5% del contenedor que contiene .leyenda-color */
+    height: 0.3rem; /* Altura de .leyenda-color en unidades relativas (0.3 rem) */
+    margin-right: 0.5%; /* Margen derecho del 0.5% del contenedor que contiene .leyenda-color */
+    margin-left: 1%; /* Margen izquierdo del 1% del contenedor que contiene .leyenda-color */
   }
   
   .leyenda-text {
-    font-size: 27px;
+    font-size: 3vw; /* Tamaño de fuente del .leyenda-text en un 3% del ancho de la pantalla */
     color: white;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 0.5vw 0.5vw 0.75vw black; /* Sombra de texto en unidades relativas */
   }
+
+@media ( max-width: 768px){
+    .calendario{
+      padding: 2rem;
+      height: 50vh;
+    }
+
+    .leyenda{
+        flex-direction: column;
+        /* padding-bottom: 4vh;
+        padding-left: 4vh;
+        padding-right: 4vh; */
+    }
+
+    .leyenda-text{
+        font-size: 25px;
+    }
+}
