@@ -28,39 +28,39 @@ const Galeria = () => {
   const images = [
     {
       url: one,
-      title: "titulo A",
+      title: "Espacio amplio y luminoso",
     },
     {
       url: two,
-      title: "titulo b",
+      title: "Decoración varia.",
     },
     {
       url: three,
-      title: "titulo b",
+      title: "Entretenimiento para todos los públicos",
     },
     {
       url: four,
-      title: "titulo b",
+      title: "Espacio de exposición de contenido/ambigur",
     },
     {
       url: five,
-      title: "titulo b",
+      title: "Espacio para diferentes eventos",
     },
     {
       url: six,
-      title: "titulo b",
+      title: "Decoración",
     },
     {
       url: seven,
-      title: "titulo b",
+      title: "Buena ambientación e iluminación",
     },
     {
       url: eight,
-      title: "titulo b",
+      title: "También tenemos pantallas",
     },
     {
       url: nine,
-      title: "titulo b",
+      title: "Disfruta!",
     },
   ];
 
