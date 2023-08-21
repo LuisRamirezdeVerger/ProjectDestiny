@@ -79,6 +79,13 @@
     z-index: 9999; /* !! z-index debe ser mayor que el de las imágenes normales !!*/
 }
 
+@media (max-width: 768px) {
+    .background{
+        /* height: 180vh; */
+      margin-bottom: -6vh;
+    }
+    
+}
 /*
 
 

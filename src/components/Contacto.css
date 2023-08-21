@@ -68,6 +68,11 @@
 }
 
 @media (max-width: 768px){
+
+    .contactoBackground{
+        height: 135vh;
+        margin-bottom: -6vh;
+    }
     .metodosLista{
         width: 75vw;
     }

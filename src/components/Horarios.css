@@ -55,6 +55,11 @@
   }
 
 @media ( max-width: 768px){
+    .horarioBackground{
+      height: 80vh;
+      margin-bottom: -6vh;
+    }
+
     .calendario{
       padding: 2rem;
       height: 50vh;

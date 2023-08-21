@@ -23,6 +23,7 @@
 
 @media (max-width: 768px) {
     .quienesSomosBackground{
-        background-size: cover;
+
+      margin-bottom: -8.5vh;
     }
 }

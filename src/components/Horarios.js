@@ -8,17 +8,19 @@ const Horarios = () => {
     const [date, setDate] = useState(new Date());
 
     const getDayColor = (date) => {
-        //Función para cmabiar el color del día
+        //Lógica para cambiar el color del día
         const day = date.getDate();
         const month = date.getMonth();
 
+        //Función para cambiar el color del día
+
         if (month === 7){
             if (day >=3  && day <= 5 ){
-            return 'blue';
+            return 'green';
         } else if (day === 6 || day === 7){
-            return 'red';
+            return 'green';
         } else if (day === 8) {
-            return 'blue';
+            return 'green';
         }
     }
 
