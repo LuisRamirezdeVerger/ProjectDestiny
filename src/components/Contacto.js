@@ -12,7 +12,7 @@ const Contacto = () => {
         <ul className="metodosLista">
           <li className="contactoLi">Contacto/Reserva: Refugio +34 608 86 79 26</li>
           <li  className="contactoLi">Contacto/Reserva: Servando +34 637 06 45 33</li>
-          <li  className="contactoLi">Correo: info@lacasadelboss.es</li>
+          <li  className="contactoLi">Correo: info.reservas@lacasadelboss.es</li>
         </ul>
       </div>
       <div className="comoLlegar">

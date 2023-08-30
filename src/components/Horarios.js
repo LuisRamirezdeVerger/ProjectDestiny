@@ -13,13 +13,13 @@ const Horarios = () => {
         const month = date.getMonth();
 
         //Función para cambiar el color del día
-
+        //Recuerda que Enero es el 0
         if (month === 7){
-            if (day >=3  && day <= 5 ){
+            if (day >= 5  && day <= 8 ){
+            return 'blue';
+        } else if (day === 10 || day === 11){
             return 'green';
-        } else if (day === 6 || day === 7){
-            return 'green';
-        } else if (day === 8) {
+        } else if (day === 3) {
             return 'green';
         }
     }
