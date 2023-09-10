@@ -34,10 +34,10 @@ const Galeria = () => {
       url: two,
       title: "Decoración varia.",
     },
-    {
-      url: three,
-      title: "Entretenimiento para todos los públicos",
-    },
+    // {
+    //   url: three,
+    //   title: "Entretenimiento para todos los públicos",
+    // },
     {
       url: four,
       title: "Espacio de exposición de contenido/ambigur",

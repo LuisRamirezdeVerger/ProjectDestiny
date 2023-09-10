@@ -10,8 +10,8 @@ const Contacto = () => {
       <div className="metodos">
         {/* <h1>A parte, los diferentes metodos de contacto</h1> */}
         <ul className="metodosLista">
-          <li className="contactoLi">Contacto/Reserva: Refugio +34 608 86 79 26</li>
-          <li  className="contactoLi">Contacto/Reserva: Servando +34 637 06 45 33</li>
+          <li className="contactoLi">Teléfono: +34 637 06 45 33  </li>
+          <li  className="contactoLi">Teléfono 2: +34 608 86 79 26 </li>
           <li  className="contactoLi">Correo: info.reservas@lacasadelboss.es</li>
         </ul>
       </div>
