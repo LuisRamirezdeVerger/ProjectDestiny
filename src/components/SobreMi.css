@@ -27,7 +27,9 @@
 
 @media (max-width: 768px) {
     .quienesSomosBackground{
-
-      margin-bottom: -8.5vh;
+        height: 890vh;
+        margin-top: 18vh;
+        padding-bottom: -5vh;
+      margin-bottom: -18vh;
     }
 }

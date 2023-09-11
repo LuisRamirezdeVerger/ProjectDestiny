@@ -14,7 +14,7 @@ const Horarios = () => {
 
         //Función para cambiar el color del día
         //Recuerda que Enero es el 0
-        if (month === 7){
+        if (month === 13){
             if (day >= 5  && day <= 8 ){
             return 'blue';
         } else if (day === 10 || day === 11){

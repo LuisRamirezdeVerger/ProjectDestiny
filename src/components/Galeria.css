@@ -24,7 +24,6 @@
     max-width: 57vw;
     align-content: center;
     text-align: center;
-    /* margin: auto; */
     margin: 10vh;
     min-height: 70vh;
     margin-bottom: -5vh;
@@ -84,6 +83,17 @@
     .background{
         /* height: 180vh; */
       margin-bottom: -6vh;
+    }
+
+    .galeria{
+        width: 90vw;
+    }
+
+    .imagen-seleccionada img{
+        position: fixed;
+        top: 30vh;
+        width: 80vw;
+        height: 30vh;
     }
     
 }
