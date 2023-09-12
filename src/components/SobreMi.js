@@ -23,12 +23,12 @@ const SobreMi = () => {
         íntimo y sofisticado hasta fiestas temáticas llenas de diversión. Cada
         evento pre-planificado está cuidadosamente elaborado para brindarte una
         experiencia única y envolvente, donde podrás disfrutar sin
-        preocupaciones y vivir momentos inolvidables junto a tus seres queridos.
+        preocupaciones y vivir momentos inolvidables.
       </p>
       <h2>Un Espacio Espectacular</h2>
       <p>
-        Nuestras instalaciones son una expresión de diseño vanguardista y
-        arquitectura moderna. Ubicada en un entorno privilegiado, "La Casa del
+        Nuestras instalaciones son una expresión de diseño cercano y moderno. 
+        Ubicada en un barrio céntrico sevillano, "La Casa del
         Boss" cuenta con un espacio interior versátil, perfectamente adaptados
         para acoger una amplia gama de eventos. Desde celebraciones íntimas
         hasta reuniones corporativas, nuestro espacio puede ser personalizado
@@ -41,45 +41,22 @@ const SobreMi = () => {
         diferencia. Es por eso que ofrecemos servicios de planificación
         personalizada para aquellos que buscan un enfoque más exclusivo y único.
         Nuestro equipo de expertos se encargará de escuchar tus ideas, brindarte
-        asesoramiento y trabajar contigo para convertir tus sueños en realidad.
+        asesoramiento y trabajar contigo para convertir tus proyectos en realidad.
         Desde la conceptualización hasta la ejecución detallada, te garantizamos
         que cada aspecto de tu evento será cuidadosamente atendido y
         perfeccionado para superar tus expectativas.
       </p>
-      <h2>Compromiso con la Excelencia</h2>
-      <p>
-        En "La Casa del Boss", nuestra misión es crear recuerdos inolvidables y
-        experiencias excepcionales para nuestros clientes. Estamos comprometidos
-        a brindar un servicio de alta calidad y a garantizar la máxima
-        satisfacción en cada etapa de tu evento. Nuestra atención al cliente es
-        impecable, y nos aseguramos de que te sientas cuidado y atendido en todo
-        momento.
-      </p>
       <h2>Un Futuro Brillante</h2>
-      <p>
-        Mirando hacia el futuro, "La Casa del Boss" se esfuerza por mantenerse a
-        la vanguardia de la industria de eventos, innovando continuamente y
-        ofreciendo nuevas y emocionantes propuestas a nuestros clientes. Nuestro
-        objetivo es ser reconocidos como un referente en la organización de
-        eventos, sinónimo de calidad, creatividad y confiabilidad.
-      </p>
-      <h2>Conclusión</h2>
       <p>
         En "La Casa del Boss", nos apasiona hacer que cada evento sea
         inolvidable. Ya sea que elijas participar en uno de nuestros eventos
-        pre-planificados o alquilar nuestro espacio para una ocasión especial,
-        te garantizamos que recibirás un servicio excepcional y un entorno
-        impactante para que tus momentos más preciados se conviertan en
-        experiencias extraordinarias. Contáctanos hoy mismo y permítenos ser
-        parte de tus celebraciones y eventos. Estamos ansiosos por crear
-        momentos mágicos y hacer realidad tus sueños en "La Casa del Boss"
-        ¡Estamos emocionados de ser parte de tus momentos especiales y ayudarte
-        a crear recuerdos duraderos! Si estás buscando una experiencia
-        excepcional y un lugar visualmente impresionante para tus eventos, "La
+        pre-planificados o alquilar nuestro espacio para una ocasión especial.
+        <br/>Contáctanos hoy mismo si estás buscando una experiencia
+        excepcional y un lugar visualmente impresionante para tus eventos,
+        <br/> "La
         Casa del Boss" es tu mejor elección.
       </p>
-      ¡Contáctanos hoy mismo y descubre cómo podemos hacer que tu próximo evento
-      sea simplemente inolvidable!
+      
     </div>
     </div>
   );

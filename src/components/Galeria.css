@@ -60,7 +60,8 @@
 
 
 .imagen-seleccionada img{
-    width: 500px;
+    align-self: center;
+    width: 800px;
     height: 500px;
     object-fit: cover;
     margin: 20px auto;

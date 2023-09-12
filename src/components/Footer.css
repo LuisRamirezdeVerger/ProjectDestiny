@@ -1,11 +1,12 @@
 .footer {
     background-color: #333;
     color: #fff;
+    height: 10vh;
     padding: 1vh;
     text-align: center;
     left: 0;
     bottom: 4vh;
-    width: 100%;
+    width: 99.17%;
   }
   
   .footer__content {
@@ -26,7 +27,8 @@
     .footer{
         /* padding-top: 0;
         margin-top: 0; */
-        width: 95vw;
+        height: 3vh;
+        width: 96vw;
         position: fixed;
         bottom: 0;
         left: 0;

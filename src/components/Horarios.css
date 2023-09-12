@@ -4,7 +4,7 @@
     background-image: url('../images/backgrounds/mazinger47Derecha.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     width: 100.1vw;
 }
 
@@ -52,6 +52,15 @@
     font-size: 3vw; /* Tamaño de fuente del .leyenda-text en un 3% del ancho de la pantalla */
     color: white;
     text-shadow: 0.5vw 0.5vw 0.75vw black; /* Sombra de texto en unidades relativas */
+  }
+
+  .cartelBackground{
+    display: flex;
+    height: 60vh;
+    width: 70vw;
+    align-self: center;
+    border: solid 3px black;
+    margin: 3vb;
   }
 
 @media ( max-width: 768px){

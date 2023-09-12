@@ -21,7 +21,7 @@ const Contacto = () => {
        <div className='imagen'> */}
         <a
           className="imageLlegar"
-          href="https://www.google.es/maps/dir//C.+Lamarque+de+Novoa,+7,+41008+Sevilla/@37.4005088,-5.9777017,17z/data=!4m18!1m8!3m7!1s0xd126eac8344cb85:0x5332127ccee4b6e4!2sC.+Lamarque+de+Novoa,+7,+41008+Sevilla!3b1!8m2!3d37.4005088!4d-5.9777017!16s%2Fg%2F11c166xvx5!4m8!1m0!1m5!1m1!1s0xd126eac8344cb85:0x5332127ccee4b6e4!2m2!1d-5.9777017!2d37.4005088!3e2?entry=ttu"
+          href="https://www.google.es/maps/place/La+Casa+del+Boss/@37.4005156,-5.9778454,17.75z/data=!4m6!3m5!1s0xd126ff149f4fd05:0xd42f3c7a9a626c0e!8m2!3d37.4005088!4d-5.9777017!16s%2Fg%2F11v9wrdjlc?entry=ttu"
         >
         </a>
       </div>

@@ -1,12 +1,12 @@
 import "./Galeria.css";
 import React, { useState } from "react";
 import one from "../images/1.png";
-import two from "../images/2.png";
-import three from "../images/3.png";
-import four from "../images/4.png";
+// import two from "../images/2.png";
+// import three from "../images/3.png";
+// import four from "../images/4.png";
 import five from "../images/5.png";
-import six from "../images/6.png";
-import seven from "../images/7.png";
+// import six from "../images/6.png";
+// import seven from "../images/7.png";
 import eight from "../images/8.png";
 import nine from "../images/9.png";
 
@@ -30,33 +30,35 @@ const Galeria = () => {
       url: one,
       title: "Espacio amplio y luminoso",
     },
-    {
-      url: two,
-      title: "Decoración varia.",
-    },
+    // {
+    //   url: two,
+    //   title: "Decoración varia.",
+    // },
     // {
     //   url: three,
     //   title: "Entretenimiento para todos los públicos",
     // },
-    {
-      url: four,
-      title: "Espacio de exposición de contenido/ambigur",
-    },
-    {
-      url: five,
-      title: "Espacio para diferentes eventos",
-    },
-    {
-      url: six,
-      title: "Decoración",
-    },
-    {
-      url: seven,
-      title: "Buena ambientación e iluminación",
-    },
+    // {
+    //   url: four,
+    //   title: "Espacio de exposición de contenido/ambigur",
+    // },
+    // {
+   
+    // {
+    //   url: six,
+    //   title: "Decoración",
+    // },
+    // {
+    //   url: seven,
+    //   title: "Buena ambientación e iluminación",
+    // },
     {
       url: eight,
       title: "También tenemos pantallas",
+    },
+       {
+        url: five,
+      title: "Espacio para diferentes eventos",
     },
     {
       url: nine,
