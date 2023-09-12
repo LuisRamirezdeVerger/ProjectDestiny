@@ -34,4 +34,8 @@
         left: 0;
         
     }
+    .footer__text {
+      /* font-size: 4.2vh; */
+      text-shadow: 2px 2px 3px black;
+    }
   }

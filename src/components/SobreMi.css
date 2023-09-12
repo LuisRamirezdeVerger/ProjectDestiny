@@ -26,10 +26,23 @@
 
 
 @media (max-width: 768px) {
-    .quienesSomosBackground{
-        height: 890vh;
-        margin-top: 18vh;
-        padding-bottom: -5vh;
-      margin-bottom: -18vh;
+
+    .nosotrosMain{
+        /* display: flex; */
+        height: auto;
+        width: 100vw;
+        margin-bottom: -300vh;
+        margin-top: -30vh;
+    } 
+
+    .quienesSomosBackground{ 
+         display: flex;
+         flex-direction: column;
+        /*width: 99vw; */
+        /* height: 520vh; */
+        /* margin-top: -49vh; */
+     /*  padding-bottom: -5vh; */
+      /* margin-bottom: -90vh; */
+      /* bottom: -50vh; */
     }
 }

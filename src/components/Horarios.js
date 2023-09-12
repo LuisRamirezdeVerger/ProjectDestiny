@@ -2,6 +2,9 @@ import "./Horarios.css";
 import React, { useState } from "react";
 import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+// import bomba from "..images/eventos/cartelBomba.png"
+
+//erstamos intentando poner el cartelm del bomba
 
 const Horarios = () => {
   const [date, setDate] = useState(new Date());
@@ -80,14 +83,19 @@ const Horarios = () => {
           }
         />
       </div>
-      <div className="cartelBackground">
-        <div className="fotoCartel">
-          foto
-        </div>
-          <div className="tituloCartel"></div>
-          <div className="infoCartel"></div>
-
-      </div>
+      <div class="evento-container">
+  <div class="evento-imagen">
+    {/* <img url={bomba} alt="Cartel del evento"/> */}
+  </div>
+  <div class="evento-info">
+    <div class="titulo">
+      <h2>Nombre del Evento</h2>
+    </div>
+    <div class="informacion">
+      <p>Información del evento...</p>
+    </div>
+  </div>
+</div>
     </div>
   );
 };
