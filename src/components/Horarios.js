@@ -2,7 +2,7 @@ import "./Horarios.css";
 import React, { useState } from "react";
 import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-// import bomba from "..images/eventos/cartelBomba.png"
+import bomba from "../images/eventos/cartelBomba.png"
 
 //erstamos intentando poner el cartelm del bomba
 
@@ -43,9 +43,6 @@ const Horarios = () => {
 
   return (
     <div className="horarioBackground" style={{ textAlign: "center" }}>
-      {/* <div className='horarioTitulo'>
-                <h1>Aqui tendremos las leyendas: Libres verde, ocupados rojo y azul evento concertado</h1>
-            </div> */}
       <div className="leyenda">
         <div className="leyenda-item">
           <div className="leyenda-color" style={{ backgroundColor: "green" }} />
@@ -83,16 +80,25 @@ const Horarios = () => {
           }
         />
       </div>
-      <div class="evento-container">
-  <div class="evento-imagen">
-    {/* <img url={bomba} alt="Cartel del evento"/> */}
+      <div className="evento-container">
+  <div className="evento-imagen">
+    <img src={bomba} alt="Cartel del evento"/>
   </div>
-  <div class="evento-info">
-    <div class="titulo">
-      <h2>Nombre del Evento</h2>
+  <div className="evento-info">
+    <div className="titulo">
+      <h1 style={{color: "white"}}>El Bomba</h1>
     </div>
-    <div class="informacion">
-      <p>Información del evento...</p>
+    <div className="informacion">
+      <p className="p-Informacion" style={{color: "white"}}>
+        <h2 className="h2-Informacion">Fecha:</h2>
+        <h4> 04 de Noviembre</h4>
+        <h2 className="h2-Informacion">Hora:</h2>
+        <h4> 19:00 - 00:00</h4>
+        <h2 className="h2-Informacion">Precio:</h2>
+        <h4>20 taquilla. 15 anticipada. Asiento no numerado</h4>
+        <h2 className="h2-Informacion">R.R.S.S:</h2> 
+        <h4>Enlace1, enlace 2 (se pueden incluir las imagenes)</h4>
+      </p>
     </div>
   </div>
 </div>
