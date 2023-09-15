@@ -55,6 +55,21 @@
     text-shadow: 0.5vw 0.5vw 0.75vw black; /* Sombra de texto en unidades relativas */
   }
 
+  .tituloEvento{
+    margin: 2vb;
+    margin-bottom: 6vb;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.171);
+    border: transparent black 20px;
+    max-width: 100%;
+    width: 90vw;
+    align-self: center;
+  }
+
+  .textoTituloEvento{
+font-size: 10vh;
+  }
+
   .evento-container {
     width: 70%;
     display: flex;
@@ -111,6 +126,7 @@
   .h2-Informacion{
     /* margin: 0 auto; */
     text-align: center;
+    text-shadow: 0vw 0vw 1.25vw black; /* Sombra de texto en unidades relativas */
   }
   h4{
     text-align: center;
@@ -118,6 +134,27 @@
     /*-webkit-text-stroke: 0.00001px white;  Borde blanco de 2 píxeles (ajusta el valor según tu preferencia) */
     /* text-stroke: 2px white; */
   }
+
+  .eventoRRSS{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .logoYT{
+    height: 9vh;
+    margin-left: 2vw;
+  }
+
+  .logoIG{
+    margin-right: 2vw;
+    height: 9vh;
+    border-radius: 2.5vh;
+  }
+
+
   
 
 @media ( max-width: 768px){
@@ -127,23 +164,30 @@
     }
 
     .calendario{
-      padding: 2rem;
+      margin-top: 3.5vh;
+      padding: 1%;
       height: 50vh;
     }
 
     .leyenda{
-        flex-direction: column;
-        /* padding-bottom: 4vh;
-        padding-left: 4vh;
-        padding-right: 4vh; */
+      margin: 0 auto;
+      text-align: center;
+      flex-direction: column;
+      margin-top: 7vh;
+      width: 90%;
+      /* padding-left: 4vh;
+      padding-right: 4vh;  */
     }
 
     .leyenda-text{
         font-size: 25px;
+        margin: 0 auto;
     }
 
     .horarioBackground{
       height: 170vh;
+      width: 100%;
+      max-width: 100%;
     }
 
     .cartelBackground{
@@ -152,6 +196,34 @@
       width: 80vw;
       align-self: center;
       border: solid 3px black;
-      margin: 3vb;
+      margin: 2vb;
+    }
+    .textoTituloEvento{
+      font-size: 5vh;
+        }
+
+    .evento-container{
+      display: flex;
+      width: 95%;
+      height: 35%;
+      /* flex-direction: column; */
+    }
+
+    .evento-imagen{
+      width: 90vw;
+    }
+    .evento-imagen img{
+      /* height: auto; */
+      width: 70vw;
+    }
+    .logoYT{
+      height: 3vh;
+      margin-left: 2vw;
+    }
+
+    .logoIG{
+      margin-right: 2vw;
+      height: 3vh;
+      border-radius: 0.8vh;
     }
 }

@@ -2,7 +2,9 @@ import "./Horarios.css";
 import React, { useState } from "react";
 import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import bomba from "../images/eventos/cartelBomba.png"
+import bomba from "../images/eventos/cartelBomba.png";
+import YT from "../images/logos/logoYoutube.png";
+import IG from "../images/logos/logoInstagram.png";
 
 //erstamos intentando poner el cartelm del bomba
 
@@ -26,6 +28,10 @@ const Horarios = () => {
       }
     }
 
+    if (month <= 9) {
+      return "red"
+    }
+
     if (month === 11) {
       if ((day >= 5 && day <= 7) || (day >= 12 && day <= 14)) {
         return "blue";
@@ -45,22 +51,16 @@ const Horarios = () => {
     <div className="horarioBackground" style={{ textAlign: "center" }}>
       <div className="leyenda">
         <div className="leyenda-item">
-          <div className="leyenda-color" style={{ backgroundColor: "green" }} />
-          <div className="leyenda-text">
-            El color verde indica "Sala disponible"
-          </div>
+          <div className="leyenda-color" style={{ backgroundColor: "green", width: "20%"  }} />
+          <div className="leyenda-text">"Sala disponible"</div>
         </div>
         <div className="leyenda-item">
-          <div className="leyenda-color" style={{ backgroundColor: "red" }} />
-          <div className="leyenda-text">
-            El color rojo indica "Sala ocupada"
-          </div>
+          <div className="leyenda-color" style={{ backgroundColor: "red", width: "20%"  }} />
+          <div className="leyenda-text">"Sala ocupada"</div>
         </div>
         <div className="leyenda-item">
-          <div className="leyenda-color" style={{ backgroundColor: "blue" }} />
-          <div className="leyenda-text">
-            El color azul indica "Evento concertado"
-          </div>
+          <div className="leyenda-color" style={{ backgroundColor: "blue", width: "20%" }} />
+          <div className="leyenda-text">"Evento concertado"</div>
         </div>
       </div>
       <div className="calendario">
@@ -80,28 +80,35 @@ const Horarios = () => {
           }
         />
       </div>
+      <div className="tituloEvento"><p className="textoTituloEvento">No te pierdas nuestros PRÓXIMOS EVENTOS</p></div>
       <div className="evento-container">
-  <div className="evento-imagen">
-    <img src={bomba} alt="Cartel del evento"/>
-  </div>
-  <div className="evento-info">
-    <div className="titulo">
-      <h1 style={{color: "white"}}>El Bomba</h1>
-    </div>
-    <div className="informacion">
-      <p className="p-Informacion" style={{color: "white"}}>
-        <h2 className="h2-Informacion">Fecha:</h2>
-        <h4> 04 de Noviembre</h4>
-        <h2 className="h2-Informacion">Hora:</h2>
-        <h4> 19:00 - 00:00</h4>
-        <h2 className="h2-Informacion">Precio:</h2>
-        <h4>20 taquilla. 15 anticipada. Asiento no numerado</h4>
-        <h2 className="h2-Informacion">R.R.S.S:</h2> 
-        <h4>Enlace1, enlace 2 (se pueden incluir las imagenes)</h4>
-      </p>
-    </div>
-  </div>
-</div>
+        <div className="evento-imagen">
+          <img src={bomba} alt="Cartel del evento" />
+        </div>
+        <div className="evento-info">
+          <div className="titulo">
+            <h1 style={{ color: "white" }}>El Bomba</h1>
+          </div>
+          <div className="informacion">
+            <p className="p-Informacion" style={{ color: "white" }}>
+              <h2 className="h2-Informacion">Fecha:</h2>
+              <h4> 04 de Noviembre</h4>
+              <h2 className="h2-Informacion">Hora:</h2>
+              <h4> 19:00 - 00:00</h4>
+              <h2 className="h2-Informacion">Precio:</h2>
+              <h4>20 taquilla. 15 anticipada. Asiento no numerado</h4>
+              <h2 className="h2-Informacion">Redes Sociales:</h2>
+              <h4 className="eventoRRSS"> 
+              <a href="youtube.com">
+                <img className="logoYT" src={YT} alt="YT logo"/>
+              </a>
+              <a href="instagram.com">
+                <img className="logoIG" src={IG} alt="IG logo"/></a>
+              </h4>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
