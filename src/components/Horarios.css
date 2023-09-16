@@ -6,16 +6,18 @@
     background-size: cover;
     height: auto;
     width: 99vw;
+    max-width: 100%;
 }
 
 .calendario{
     display: flex;
-    padding-right: 30vw;
+    padding-right: 20vw;
     flex-direction: row;
     justify-content: center;
     border-style: none;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
+    margin-top: 10vb;
 }
 
 .horarioTitulo{
@@ -98,7 +100,7 @@ font-size: 10vh;
   }
   
   .evento-info {
-    margin-top: -6vh;
+    /* margin-top: -5vh; */
     border: 4px solid transparent white;
     height: 60vh;
     width: 70%; /* Ocupa el 65% del espacio del contenedor */
@@ -116,21 +118,35 @@ font-size: 10vh;
   }
   
   .informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-size: 2vh;
     margin: 1vb;
+    margin-top: 5vh;
     text-align: justify; /* Justifica el texto de información */
     max-height: 100%;
     height: 40vh;
   }
 
+  .p-Informacion{
+
+  }
+
   .h2-Informacion{
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    padding: 1.5vh;
+    border-bottom: solid 4px rgba(0, 0, 0, 0.357);
+    border-top: transparent 5px black;
+    border-radius: 20%;
     text-align: center;
     text-shadow: 0vw 0vw 1.25vw black; /* Sombra de texto en unidades relativas */
   }
   h4{
     text-align: center;
     color: black;
+    margin: 0 auto;
+    font-size: 2vh;
     /*-webkit-text-stroke: 0.00001px white;  Borde blanco de 2 píxeles (ajusta el valor según tu preferencia) */
     /* text-stroke: 2px white; */
   }
@@ -141,16 +157,19 @@ font-size: 10vh;
     margin: 0 auto;
     text-align: center;
     justify-content: space-around;
+    
   }
 
   .logoYT{
-    height: 9vh;
-    margin-left: 2vw;
+    height: 6vh;
+    margin-left: 5%;
+    margin-top: 0;
   }
 
   .logoIG{
-    margin-right: 2vw;
-    height: 9vh;
+    /* margin-right: 5vw; */
+    margin-top: 0;
+    height: 6vh;
     border-radius: 2.5vh;
   }
 
@@ -225,5 +244,8 @@ font-size: 10vh;
       margin-right: 2vw;
       height: 3vh;
       border-radius: 0.8vh;
+    }
+    h4{
+      font-size: 1.3vh;
     }
 }

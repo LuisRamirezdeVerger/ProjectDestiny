@@ -5,8 +5,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 100.1vw;
+    max-width: 100%;
+    width: 100vw;
     text-shadow: 2px 2px 3px white;
+    margin-bottom: -10vh;
 }
 
 .tituloContacto{
@@ -21,6 +23,7 @@
     text-align: center;
     color: white;
     text-shadow: 2px 2px 3px black;
+    height: 30vh;
 }
 
 .metodosLista{
@@ -74,9 +77,11 @@
 @media (max-width: 768px){
 
     .contactoBackground{
-        height: 155vh;
-        margin-bottom: -6vh;
+        height: 153vh;
+        margin-bottom: -4vh;
+        margin-top: 0.5vh;
     }
+
     .metodosLista{
         width: 75vw;
     }

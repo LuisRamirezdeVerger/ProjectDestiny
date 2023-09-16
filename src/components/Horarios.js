@@ -29,7 +29,7 @@ const Horarios = () => {
     }
 
     if (month <= 9) {
-      return "red"
+      return "red";
     }
 
     if (month === 11) {
@@ -51,15 +51,24 @@ const Horarios = () => {
     <div className="horarioBackground" style={{ textAlign: "center" }}>
       <div className="leyenda">
         <div className="leyenda-item">
-          <div className="leyenda-color" style={{ backgroundColor: "green", width: "20%"  }} />
+          <div
+            className="leyenda-color"
+            style={{ backgroundColor: "green", width: "20%" }}
+          />
           <div className="leyenda-text">"Sala disponible"</div>
         </div>
         <div className="leyenda-item">
-          <div className="leyenda-color" style={{ backgroundColor: "red", width: "20%"  }} />
+          <div
+            className="leyenda-color"
+            style={{ backgroundColor: "red", width: "20%" }}
+          />
           <div className="leyenda-text">"Sala ocupada"</div>
         </div>
         <div className="leyenda-item">
-          <div className="leyenda-color" style={{ backgroundColor: "blue", width: "20%" }} />
+          <div
+            className="leyenda-color"
+            style={{ backgroundColor: "blue", width: "20%" }}
+          />
           <div className="leyenda-text">"Evento concertado"</div>
         </div>
       </div>
@@ -80,7 +89,11 @@ const Horarios = () => {
           }
         />
       </div>
-      <div className="tituloEvento"><p className="textoTituloEvento">No te pierdas nuestros PRÓXIMOS EVENTOS</p></div>
+      <div className="tituloEvento">
+        <p className="textoTituloEvento">
+          No te pierdas nuestros PRÓXIMOS EVENTOS
+        </p>
+      </div>
       <div className="evento-container">
         <div className="evento-imagen">
           <img src={bomba} alt="Cartel del evento" />
@@ -91,20 +104,22 @@ const Horarios = () => {
           </div>
           <div className="informacion">
             <p className="p-Informacion" style={{ color: "white" }}>
-              <h2 className="h2-Informacion">Fecha:</h2>
-              <h4> 04 de Noviembre</h4>
-              <h2 className="h2-Informacion">Hora:</h2>
-              <h4> 19:00 - 00:00</h4>
-              <h2 className="h2-Informacion">Precio:</h2>
-              <h4>20 taquilla. 15 anticipada. Asiento no numerado</h4>
-              <h2 className="h2-Informacion">Redes Sociales:</h2>
-              <h4 className="eventoRRSS"> 
-              <a href="youtube.com">
-                <img className="logoYT" src={YT} alt="YT logo"/>
-              </a>
-              <a href="instagram.com">
-                <img className="logoIG" src={IG} alt="IG logo"/></a>
+              <h2 className="h2-Informacion">Sobre el artista:</h2>
+              <h4>- Finalista de la 6ª edición "Tierra de Talentos".<br/><br/> - Semifinalista de "La Voz".</h4> <br/>
+              <h4 className="eventoRRSS">
+                <a href="https://www.youtube.com/watch?v=utvkxaEbwpE">
+                  <img className="logoYT" src={YT} alt="YT logo" />
+                </a>
+                <a href="https://www.instagram.com/rafaelruiz_elbomba/?hl=es">
+                  <img className="logoIG" src={IG} alt="IG logo" />
+                </a>
               </h4>
+              <h2 className="h2-Informacion">Hora:</h2>
+              <h4 className="h4-Informacion"> Desde las 19:00 hasta las 00:00</h4>
+              <h2 className="h2-Informacion">Precio:</h2>
+              <h4 className="h4-Informacion">20 taquilla. 15 anticipada. Asiento no numerado</h4>
+              <h2 className="h2-Informacion">Fecha:</h2>
+              <h4 className="h4-Informacion"> 04 de Noviembre</h4>
             </p>
           </div>
         </div>

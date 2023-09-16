@@ -6,7 +6,8 @@
     text-align: center;
     left: 0;
     bottom: 4vh;
-    width: 99.17%;
+    width: 98.9%;
+    max-width: 100%;
   }
   
   .footer__content {
