@@ -13,7 +13,7 @@
 body{
   display: flex;
   flex-direction: column;
-  background-color: #0892a5;
+  background-color: #000000;
   font-family: 'bodoni-72-smallcaps-book', sans-serif;
   padding-bottom: 8.5vh;
   width: 100%;
