@@ -14,7 +14,6 @@
 .galeria{
     display: flex;
     width: 50vw;
-    /* Estilo del borde */
     border: 3px black solid;
     flex-wrap: wrap;
     position: relative;
@@ -72,7 +71,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /*background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para resaltar la imagen */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +81,6 @@
 
 @media (max-width: 768px) {
     .background{
-        /* height: 180vh; */
       margin-bottom: -6vh;
     }
 
@@ -97,10 +94,4 @@
         width: 80vw;
         height: 30vh;
     }
-    
 }
-/*
-
-
-
-*/

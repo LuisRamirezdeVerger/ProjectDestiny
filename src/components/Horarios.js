@@ -6,7 +6,6 @@ import bomba from "../images/eventos/cartelBomba.png";
 import YT from "../images/logos/logoYoutube.png";
 import IG from "../images/logos/logoInstagram.png";
 
-//erstamos intentando poner el cartelm del bomba
 
 const Horarios = () => {
   const [date, setDate] = useState(new Date());
@@ -43,8 +42,6 @@ const Horarios = () => {
     }
 
     return "green";
-
-    // return day === 1 ? 'red' : day === 3 ? 'green': 'blue';
   };
 
   return (

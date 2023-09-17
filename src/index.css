@@ -14,18 +14,18 @@ code {
 
 @media (max-width: 768px) {
   .navBar a {
-    font-size: 4vw; /* Tamaño de fuente reducido para dispositivos móviles */
+    font-size: 4vw; 
   }
 
   .navBar ul li a:hover {
-    font-size: 5vw; /* Tamaño de fuente reducido para dispositivos móviles */
+    font-size: 5vw; 
   }
 
   .tituloNavBar {
-    font-size: 12vw; /* Tamaño de fuente reducido para dispositivos móviles */
+    font-size: 12vw; 
   }
 
   footer {
-    font-size: 6vw; /* Tamaño de fuente reducido para dispositivos móviles */
+    font-size: 6vw; 
   }
 }

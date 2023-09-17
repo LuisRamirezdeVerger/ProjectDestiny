@@ -112,9 +112,9 @@ font-size: 10vh;
     height: 6vh;
     border:  10px grey;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-    text-shadow: 1vw 1vw 1.25vw black; /* Sombra de texto en unidades relativas */
-    text-align: center; /* Centra el título */
-    margin-bottom: 10px; /* Espacio entre el título y la información */
+    text-shadow: 1vw 1vw 1.25vw black; /* Sombra de texto  */
+    text-align: center; 
+    margin-bottom: 10px; 
   }
   
   .informacion {
@@ -124,7 +124,7 @@ font-size: 10vh;
     font-size: 2vh;
     margin: 1vb;
     margin-top: 5vh;
-    text-align: justify; /* Justifica el texto de información */
+    text-align: justify;
     max-height: 100%;
     height: 40vh;
   }
@@ -137,15 +137,13 @@ font-size: 10vh;
     border-top: transparent 5px black;
     border-radius: 20%;
     text-align: center;
-    text-shadow: 0vw 0vw 1.25vw black; /* Sombra de texto en unidades relativas */
+    text-shadow: 0vw 0vw 1.25vw black; /* Sombra de texto */
   }
   h4{
     text-align: center;
     color: black;
     margin: 0 auto;
     font-size: 2vh;
-    /*-webkit-text-stroke: 0.00001px white;  Borde blanco de 2 píxeles (ajusta el valor según tu preferencia) */
-    /* text-stroke: 2px white; */
   }
 
   .eventoRRSS{
@@ -164,7 +162,6 @@ font-size: 10vh;
   }
 
   .logoIG{
-    /* margin-right: 5vw; */
     margin-top: 0;
     height: 6vh;
     border-radius: 2.5vh;
@@ -191,8 +188,6 @@ font-size: 10vh;
       flex-direction: column;
       margin-top: 7vh;
       width: 90%;
-      /* padding-left: 4vh;
-      padding-right: 4vh;  */
     }
 
     .leyenda-text{
@@ -222,14 +217,14 @@ font-size: 10vh;
       display: flex;
       width: 95%;
       height: 35%;
-      /* flex-direction: column; */
+
     }
 
     .evento-imagen{
       width: 90vw;
     }
     .evento-imagen img{
-      /* height: auto; */
+ 
       width: 70vw;
     }
     .logoYT{

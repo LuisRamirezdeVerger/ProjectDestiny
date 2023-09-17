@@ -34,7 +34,6 @@
         width: 100vw;
         max-width: 100%;
         margin-top: -4.85vh;
-        /* margin-bottom: -0.75vh; */
     } 
 
     .quienesSomosBackground{
@@ -43,9 +42,6 @@
         background-size: cover;
         margin-top: 0;
         max-width: 100%;
-        /* margin-bottom: -49vh; */
-        /* padding-bottom: -34vh;   */
-        /* height: auto; */
         background-size: cover;
     } 
     .tituloNosotros{

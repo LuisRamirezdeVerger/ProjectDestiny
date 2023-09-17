@@ -35,7 +35,7 @@ body{
   display: flex;
   flex-direction: row;
   background-color: #bb7e5d;  
-  height: 14.8vh;
+  height: 14.8vh; 
   border-bottom: 0.3em black solid;
   width: 99 vw;
   font-family: 'Fun Party', sans-serif;
@@ -63,7 +63,7 @@ body{
   display: flex;
   width: 100%;
   justify-content: center;
-  color: #000; /*Color Inicial*/
+  color: #000;
   transition: color 0.3s ease-in-out; /*Transición animada*/
   text-align: center;
   align-items: center;
@@ -72,7 +72,7 @@ body{
 
 .navBar ul li a:hover {
   display: flex;
-  color: white; /* Color al pasar el cursor */
+  color: white;
   font-size: 2vw;
 }
 
@@ -94,7 +94,6 @@ body{
   height: 13vh;
   object-fit: contain;
   transform: scale(1.1);
-  /* padding-bottom: 3.2vh; */
   margin-bottom: 5vh;
 }
 
@@ -117,9 +116,6 @@ body{
   text-align: center;
   align-self: center;
 }
-
-/* Estilos para smartphones*/
-/* Estilos para smartphones*/
 
 
 @media (max-width: 768px){
