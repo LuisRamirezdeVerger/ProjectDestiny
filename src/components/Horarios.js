@@ -174,7 +174,7 @@ const Horarios = () => {
                 70/pareja solo anticipada. Asiento no numerado.
                 <br /> Incluye:
               <br/>
-                - Salpicón de marisco por persona - Plato de ensaladilla de la
+                - Salpicón de marisco por persona <br/>- Plato de ensaladilla de la
                 mamá del Boss para 2 <br />- Tortilla española de la mamá del
                 Boss para 2 plato de queso para 2<br /> - Plato de salchichón
                 ibérico para 2 - Plato de chorizo ibérico para 2 <br />-
@@ -197,10 +197,11 @@ const Horarios = () => {
             <h1 style={{ color: "white" }}>Zambomba Flamenca</h1>
           </div>
           <div className="informacion">
-            <p className="p-Informacion" style={{ color: "white" }}>
-              <h2 className="h2-Informacion">Los artistas:</h2>
+            <p className="p-Informacion" style={{ color: "white", fontSize: "3vh" }}>
+              {/* <h2 className="h2-Informacion">Los artistas:</h2> */}
               <h4>
-                
+              Sumérgete en la magia de la música y el baile tradicional español mientras te transportamos las vibraciones de Andalucía. Nuestra Zambomba Flamenca es una celebración de la vida y la cultura, 
+              llena de ritmo contagioso y pasión desbordante.
               </h4>{" "}
               <br />
               <h4 className="eventoRRSS">
@@ -211,7 +212,7 @@ const Horarios = () => {
                   <img className="logoIG" src={IG} alt="IG logo" />
                 </a> */}
               </h4>
-              <h2 className="h2-Informacion">Hora:</h2>
+              {/* <h2 className="h2-Informacion">Hora:</h2> */}
               <h4 className="h4-Informacion">
                 {" "}
               </h4>
@@ -226,6 +227,8 @@ const Horarios = () => {
         </div>
       </div>
       <div className="separadorEventos"></div>
+      <div className="separadorEventos"></div>
+
     </div>
   );
 };
