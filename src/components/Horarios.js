@@ -106,7 +106,7 @@ const Horarios = () => {
           </div>
           <div className="informacion">
             <p className="p-Informacion" style={{ color: "white" }}>
-              <h2 className="h2-Informacion">El artista:</h2>
+              {/* <h2 className="h2-Informacion">El artista:</h2> */}
               <h4>
                 Rafael Ruiz (El Bomba)
                 <br /> - Semifinalista de "La Voz" 2020. <br />
@@ -175,15 +175,15 @@ const Horarios = () => {
                 70/pareja solo anticipada. Asiento no numerado.
                 <br /> Incluye:
               </h4>
-              <h4>
+              <h4 className="h4Jess">
                 - Salpicón de marisco por persona - Plato de ensaladilla de la
                 mamá del Boss para 2 <br />- Tortilla española de la mamá del
                 Boss para 2 plato de queso para 2<br /> - Plato de salchichón
                 ibérico para 2 - Plato de chorizo ibérico para 2 <br />-
                 Consumición (refresco o tercio)
               </h4>
-              <h2 className="h2-Informacion">Fecha:</h2>
-              <h4 className="h4-Informacion"> 25 de Noviembre</h4>
+              {/* <h2 className="h2-Informacion">Fecha:</h2>
+              <h4 className="h4-Informacion"> 25 de Noviembre</h4> */}
             </p>
           </div>
         </div>
