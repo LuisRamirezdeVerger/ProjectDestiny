@@ -118,7 +118,6 @@
     text-align: center; 
     margin-bottom: 10px; 
     margin-top: -3.5vh;
-
   }
   
   .informacion {
@@ -143,7 +142,6 @@
     text-shadow: 0vw 0vw 1.25vw black; /* Sombra de texto */
   }
 
-  
   h4{
     text-align: center;
     color: black;
@@ -183,6 +181,18 @@
   }
 
   .logoIG{
+    margin-top: 0;
+    height: 6vh;
+    border-radius: 2.5vh;
+  }
+
+  .logoYTJ{
+    height: 6vh;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+
+  .logoIGJ{
     margin-top: 0;
     height: 6vh;
     border-radius: 2.5vh;
@@ -256,10 +266,11 @@
     .evento-imagen{
       width: 90vw;
     }
+
     .evento-imagen img{
- 
       width: 70vw;
     }
+
     .logoYT{
       height: 3vh;
       margin-left: 2vw;
@@ -271,11 +282,33 @@
       border-radius: 0.8vh;
     }
 
+    .h4Jess{
+      font-size:1.30vh;
+      height: 15vh;
+    }
+
     h4{
       font-size: 1.6vh;
     }
+
+    .eventoRRSSJ{
+      margin-top: 10vh;
+    }
+
     .h2-Informacion{
       margin-top: -0.5vh;
     }
-    
+
+    .logoYTJ{
+      height: 3vh;
+      margin-left: 2vw;
+      margin-top: 3vh;
+    }
+
+    .logoIGJ{
+      margin-right: 2vw;
+      height: 3vh;
+      border-radius: 0.8vh;
+    }
+
 }

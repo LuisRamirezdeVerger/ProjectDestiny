@@ -146,6 +146,14 @@ const Horarios = () => {
             <h1 style={{ color: "white" }}>La Flaka</h1>
           </div>
           <div className="informacion">
+          <h4 className="eventoRRSSJ" style={{margin: "-2.4vh"}}>
+                <a href="https://www.youtube.com/@LaFlakaOficial">
+                  <img className="logoYTJ" src={YT} alt="YT logo" />
+                </a>
+                <a href="https://www.instagram.com/laflakaoficial/">
+                  <img className="logoIGJ" src={IG} alt="IG logo" />
+                </a>
+              </h4>
             <p className="p-InformacionFlaka" style={{ color: "white" }}>
               {/* <h2 className="h2-Informacion"> {" "}</h2> */}
               <h4 className="h4Jess">
@@ -156,26 +164,16 @@ const Horarios = () => {
                 Casa del Boss con un espectáculo íntimo y exclusivo.
                 <br />
                 Os dejamos un cachito de ella:
-              </h4>{" "}
-              <br />
-              <h4 className="eventoRRSS">
-                <a href="https://www.youtube.com/@LaFlakaOficial">
-                  <img className="logoYT" src={YT} alt="YT logo" />
-                </a>
-                <a href="https://www.instagram.com/laflakaoficial/">
-                  <img className="logoIG" src={IG} alt="IG logo" />
-                </a>
-              </h4>
+              </h4>{" "}              
               <h2 className="h2-Informacion">Hora:</h2>
               {/* <h4 className="h4-Informacion">
                 Apertura de puertas a las 18:00 inicio a las 19:00
               </h4> */}
               <h2 className="h2-Informacion">Precio:</h2>
-              <h4 className="h4-Informacion">
+              <h4 className="h4Jess">
                 70/pareja solo anticipada. Asiento no numerado.
                 <br /> Incluye:
-              </h4>
-              <h4 className="h4Jess">
+              <br/>
                 - Salpicón de marisco por persona - Plato de ensaladilla de la
                 mamá del Boss para 2 <br />- Tortilla española de la mamá del
                 Boss para 2 plato de queso para 2<br /> - Plato de salchichón
