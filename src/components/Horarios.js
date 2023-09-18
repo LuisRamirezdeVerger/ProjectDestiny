@@ -156,8 +156,9 @@ const Horarios = () => {
               </h4>
             <p className="p-InformacionFlaka" style={{ color: "white" }}>
               {/* <h2 className="h2-Informacion"> {" "}</h2> */}
-              <h4 className="h4Jess">
-                Jessica Cánovas (La Flaka)
+              <h4 className="h4Jess" style={{width:"80%"}}>
+                <div></div>
+                Jessica Cánovas (La Flaka).
                 <br /> La artista sevillana conocida como "La Flaka", lleva más
                 de 12 años encima de los escenarios. Después de casi 1 año sin
                 pisar tierras sevillanas, La Flaka vuelve y se presenta en<br/> La
@@ -166,12 +167,13 @@ const Horarios = () => {
                 Os dejamos un cachito de ella:
               </h4>{" "}              
               <h2 className="h2-Informacion">Hora:</h2>
-              {/* <h4 className="h4-Informacion">
-                Apertura de puertas a las 18:00 inicio a las 19:00
-              </h4> */}
+              <h4 className="h4-Informacion">
+                Apertura de puertas a las 17:00 inicio a las 19:00
+              </h4>
+              
               <h2 className="h2-Informacion">Precio:</h2>
               <h4 className="h4Jess">
-                70/pareja solo anticipada. Asiento no numerado.
+                70/pareja solo anticipada. <br/>Asiento no numerado.
                 <br /> Incluye:
               <br/>
                 - Salpicón de marisco por persona <br/>- Plato de ensaladilla de la
@@ -197,10 +199,10 @@ const Horarios = () => {
             <h1 style={{ color: "white" }}>Zambomba Flamenca</h1>
           </div>
           <div className="informacion">
-            <p className="p-Informacion" style={{ color: "white", fontSize: "3vh" }}>
+            <p className="p-Informacion" style={{ color: "white", fontSize: "3vh", paddingTop:"1vh" }}>
               {/* <h2 className="h2-Informacion">Los artistas:</h2> */}
-              <h4>
-              Sumérgete en la magia de la música y el baile tradicional español mientras te transportamos las vibraciones de Andalucía. Nuestra Zambomba Flamenca es una celebración de la vida y la cultura, 
+              <h4 style={{textAlign:"center", width:"80%"}}>
+              Sumérgete en la magia de la música tradicional española mientras te transportamos las vibraciones de Andalucía. Nuestra Zambomba Flamenca es una celebración de la vida y la cultura, 
               llena de ritmo contagioso y pasión desbordante.
               </h4>{" "}
               <br />
@@ -216,12 +218,12 @@ const Horarios = () => {
               <h4 className="h4-Informacion">
                 {" "}
               </h4>
-              <h2 className="h2-Informacion">Precio:</h2>
-              <h4 className="h4-Informacion">
+              <h2 className="h2-Informacion" style={{margin: "-3vh"}}>Precio:</h2>
+              <h4 className="h4-Informacion" style={{paddingTop: "3vh"}}>
                 20 taquilla. 15 anticipada. Asiento no numerado
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
-              <h4 className="h4-Informacion"> Diciembre</h4>
+              <h4 className="h4-Informacion"> Todos los martes, miércoles y jueves de Diciembre</h4>
             </p>
           </div>
         </div>

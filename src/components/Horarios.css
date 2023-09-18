@@ -207,8 +207,10 @@
 
 @media ( max-width: 768px){
     .horarioBackground{
-      height: 80vh;
+      height: 300vh;
       margin-bottom: -6vh;
+      width: 100%;
+      max-width: 100%;
     }
 
     .calendario{
@@ -230,11 +232,10 @@
         margin: 0 auto;
     }
 
-    .horarioBackground{
+    /* .horarioBackground{
       height: 170vh;
-      width: 100%;
-      max-width: 100%;
-    }
+      
+    } */
 
     .cartelBackground{
       display: flex;
