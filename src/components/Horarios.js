@@ -223,7 +223,7 @@ const Horarios = () => {
                 20 taquilla. 15 anticipada. Asiento no numerado
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
-              <h4 className="h4-Informacion"> Todos los martes, miércoles y jueves de Diciembre</h4>
+              <h4 className="h4-Informacion"> Días 6, 14, 21, 22, 23, 28, 29, 30 de Diciembre</h4>
             </p>
           </div>
         </div>
