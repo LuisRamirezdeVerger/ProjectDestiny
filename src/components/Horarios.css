@@ -207,8 +207,9 @@
 
 @media ( max-width: 768px){
     .horarioBackground{
-      height: 300vh;
-      margin-bottom: -6vh;
+      /* height: 290vh; */
+      max-height: 1000vh;
+      margin-bottom:15vh;
       width: 100%;
       max-width: 100%;
     }
@@ -231,11 +232,6 @@
         font-size: 25px;
         margin: 0 auto;
     }
-
-    /* .horarioBackground{
-      height: 170vh;
-      
-    } */
 
     .cartelBackground{
       display: flex;
@@ -284,7 +280,7 @@
     }
 
     .h4Jess{
-      font-size:1.30vh;
+      font-size:1.20vh;
       height: 15vh;
     }
 
@@ -312,4 +308,10 @@
       border-radius: 0.8vh;
     }
 
+    .h4Zam{
+      font-size: 1.2vh;
+    }
+     .h4ZamFecha{
+      font-size: 2vh;
+     } 
 }

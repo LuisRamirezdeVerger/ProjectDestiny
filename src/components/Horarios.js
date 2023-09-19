@@ -158,13 +158,11 @@ const Horarios = () => {
               {/* <h2 className="h2-Informacion"> {" "}</h2> */}
               <h4 className="h4Jess" style={{width:"80%"}}>
                 <div></div>
-                Jessica Cánovas (La Flaka).
                 <br /> La artista sevillana conocida como "La Flaka", lleva más
                 de 12 años encima de los escenarios. Después de casi 1 año sin
                 pisar tierras sevillanas, La Flaka vuelve y se presenta en<br/> La
                 Casa del Boss con un espectáculo íntimo y exclusivo.
                 <br />
-                Os dejamos un cachito de ella:
               </h4>{" "}              
               <h2 className="h2-Informacion">Hora:</h2>
               <h4 className="h4-Informacion">
@@ -173,6 +171,7 @@ const Horarios = () => {
               
               <h2 className="h2-Informacion">Precio:</h2>
               <h4 className="h4Jess">
+                Espectáculo + Cena Fría.
                 70/pareja solo anticipada. <br/>Asiento no numerado.
                 <br /> Incluye:
               <br/>
@@ -201,10 +200,10 @@ const Horarios = () => {
           <div className="informacion">
             <p className="p-Informacion" style={{ color: "white", fontSize: "3vh", paddingTop:"1vh" }}>
               {/* <h2 className="h2-Informacion">Los artistas:</h2> */}
-              <h4 style={{textAlign:"center", width:"80%"}}>
+              <h4 className="h4Zam" style={{width:"80%"}}>
               Sumérgete en la magia de la música tradicional española mientras te transportamos las vibraciones de Andalucía. Nuestra Zambomba Flamenca es una celebración de la vida y la cultura, 
               llena de ritmo contagioso y pasión desbordante.
-              </h4>{" "}
+              </h4>
               <br />
               <h4 className="eventoRRSS">
                 {/* <a href="https://www.youtube.com/watch?v=utvkxaEbwpE">
@@ -219,18 +218,16 @@ const Horarios = () => {
                 {" "}
               </h4>
               <h2 className="h2-Informacion" style={{margin: "-3vh"}}>Precio:</h2>
-              <h4 className="h4-Informacion" style={{paddingTop: "3vh"}}>
+              <h4 className="h4Zam" style={{paddingTop: "3vh"}}>
                 20 taquilla. 15 anticipada. Asiento no numerado
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
-              <h4 className="h4-Informacion"> Días 6, 14, 21, 22, 23, 28, 29, 30 de Diciembre</h4>
+              <h4 className="h4ZamFecha"> Días 6, 14, 21, 22, 23, 28, 29, 30 de Diciembre</h4>
             </p>
           </div>
         </div>
       </div>
       <div className="separadorEventos"></div>
-      <div className="separadorEventos"></div>
-
     </div>
   );
 };

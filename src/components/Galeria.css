@@ -82,6 +82,7 @@
 @media (max-width: 768px) {
     .background{
       margin-bottom: -6vh;
+      height: 140vh;
     }
 
     .galeria{

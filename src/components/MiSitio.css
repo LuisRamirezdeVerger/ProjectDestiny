@@ -22,7 +22,7 @@
 
 @media (max-width: 768px) {
   .background-miSitio{
-    height: 161vh;
+    height: 165vh;
       margin-bottom: -5vh;
     padding-bottom: 0;
   }
@@ -30,7 +30,8 @@
   .quienesSomos{
     padding-bottom: 0;
     margin-bottom: 0;
-    align-items: center;
+    text-align: justify;
+    /* align-items: center; */
   }
 
   .pFinal{
@@ -41,7 +42,7 @@
     margin-top: 0;
     margin-right: 0;
     width: 90vw;
-    text-align: justify;
+    text-align: center;
     justify-items: center;
   }
 }
