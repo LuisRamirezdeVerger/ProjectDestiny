@@ -33,10 +33,10 @@ const Horarios = () => {
     }
 
     if (month === 11) {
-      if ((day >= 5 && day <= 7) || (day >= 12 && day <= 14)) {
+      if (day === 6 || day === 14 || day === 21 || day === 22 || day === 23 || day === 28 || day === 29 || day === 30) {
         return "blue";
       } else if ((day >= 19 && day <= 21) || (day >= 26 && day <= 28)) {
-        return "blue";
+        return "green";
       } else if (day === 3) {
         return "green";
       }
@@ -128,7 +128,7 @@ const Horarios = () => {
               </h4>
               <h2 className="h2-Informacion">Precio:</h2>
               <h4 className="h4-Informacion">
-                20 taquilla. 15 anticipada. Asiento no numerado
+                Reservas abiertas para grupos y empresas. Asiento no numerado
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
               <h4 className="h4-Informacion"> 04 de Noviembre</h4>
@@ -219,7 +219,7 @@ const Horarios = () => {
               </h4>
               <h2 className="h2-Informacion" style={{margin: "-3vh"}}>Precio:</h2>
               <h4 className="h4Zam" style={{paddingTop: "3vh"}}>
-                20 taquilla. 15 anticipada. Asiento no numerado
+                Reservas abiertas para grupos y empresas.
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
               <h4 className="h4ZamFecha"> Días 6, 14, 21, 22, 23, 28, 29, 30 de Diciembre</h4>
