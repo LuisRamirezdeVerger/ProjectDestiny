@@ -172,13 +172,13 @@ const Horarios = () => {
               <h2 className="h2-Informacion">Precio:</h2>
               <h4 className="h4Jess">
                 Espectáculo + Cena Fría.
-                70/pareja solo anticipada. <br/>Asiento no numerado.
+                70€/pareja. Solo anticipada. <br/>Asiento no numerado.
                 <br /> Incluye:
               <br/>
-                - Salpicón de marisco por persona <br/>- Plato de ensaladilla de la
+                - Salpicón de marisco por persona <br/>- Ensaladilla de la
                 mamá del Boss para 2 <br />- Tortilla española de la mamá del
-                Boss para 2 plato de queso para 2<br /> - Plato de salchichón
-                ibérico para 2 - Plato de chorizo ibérico para 2 <br />-
+                Boss para 2 <br/>- Queso para 2<br /> - Salchichón
+                ibérico para 2<br/> - Chorizo ibérico para 2 <br />-
                 Consumición (refresco o tercio)
               </h4>
               {/* <h2 className="h2-Informacion">Fecha:</h2>
