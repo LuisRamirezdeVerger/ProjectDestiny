@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import bomba from "../images/eventos/cartelBomba.png";
-import flaka from "../images/eventos/cartelFlaka.png";
+// import flaka from "../images/eventos/cartelFlaka.png";
 import zambomba from "../images/eventos/cartelZambomba.JPG";
 import YT from "../images/logos/logoYoutube.png";
 import IG from "../images/logos/logoInstagram.png";
@@ -121,8 +121,8 @@ const Horarios = () => {
                   <img className="logoIG" src={IG} alt="IG logo" />
                 </a>
               </h4>
-              <h2 className="h2-Informacion">Hora:</h2>
-              <h4 className="h4-Informacion">
+              <h2 className="h2-Informacion">PRÓXIMAMENTE</h2>
+              {/* <h4 className="h4-Informacion">
                 {" "}
                 Apertura de puertas a las 17:00 inicio a las 19:00
               </h4>
@@ -131,13 +131,14 @@ const Horarios = () => {
                 Reservas abiertas para grupos y empresas. Asiento no numerado
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
-              <h4 className="h4-Informacion"> 04 de Noviembre</h4>
+              <h4 className="h4-Informacion"> Proximamente </h4> */}
             </p>
           </div>
         </div>
       </div>
       <div className="separadorEventos"></div>
-      <div className="evento-container">
+
+      {/* <div className="evento-container">
         <div className="evento-imagen">
           <img src={flaka} alt="Cartel del evento" />
         </div>
@@ -155,7 +156,7 @@ const Horarios = () => {
                 </a>
               </h4>
             <p className="p-InformacionFlaka" style={{ color: "white" }}>
-              {/* <h2 className="h2-Informacion"> {" "}</h2> */}
+               <h2 className="h2-Informacion"> {" "}</h2> 
               <h4 className="h4Jess" style={{width:"80%"}}>
                 <div></div>
                 <br /> La artista sevillana conocida como "La Flaka", lleva más
@@ -181,12 +182,13 @@ const Horarios = () => {
                 ibérico para 2<br/> - Chorizo ibérico para 2 <br />-
                 Consumición (refresco o tercio)
               </h4>
-              {/* <h2 className="h2-Informacion">Fecha:</h2>
-              <h4 className="h4-Informacion"> 25 de Noviembre</h4> */}
+               <h2 className="h2-Informacion">Fecha:</h2>
+              <h4 className="h4-Informacion"> 25 de Noviembre</h4>
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+
       <div className="separadorEventos"></div>
       
       <div className="evento-container">
