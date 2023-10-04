@@ -2,11 +2,11 @@ import "./Horarios.css";
 import React, { useState } from "react";
 import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import bomba from "../images/eventos/cartelBomba.png";
-import QRB from "../images/eventos/bombaQR.png";
-import zambomba from "../images/eventos/cartelZambomba.JPG";
-import YT from "../images/logos/logoYoutube.png";
-import IG from "../images/logos/logoInstagram.png";
+// import bomba from "../images/eventos/cartelBomba.png";
+// import QRB from "../images/eventos/bombaQR.png";
+// import zambomba from "../images/eventos/cartelZambomba.JPG";
+// import YT from "../images/logos/logoYoutube.png";
+// import IG from "../images/logos/logoInstagram.png";
 
 const Horarios = () => {
   const [date, setDate] = useState(new Date());
@@ -22,7 +22,7 @@ const Horarios = () => {
       if (day >= 5 && day <= 8) {
         return "green";
       } else if (day === 4 || day === 18 || day === 25) {
-        return "blue";
+        return "green";
       } else if (day === 3) {
         return "green";
       }
@@ -43,7 +43,7 @@ const Horarios = () => {
         day === 29 ||
         day === 30
       ) {
-        return "blue";
+        return "green";
       } else if ((day >= 19 && day <= 21) || (day >= 26 && day <= 28)) {
         return "green";
       } else if (day === 3) {
@@ -71,13 +71,13 @@ const Horarios = () => {
           />
           <div className="leyenda-text">"Sala ocupada"</div>
         </div>
-        <div className="leyenda-item">
+        {/* <div className="leyenda-item">
           <div
             className="leyenda-color"
             style={{ backgroundColor: "blue", width: "20%" }}
           />
           <div className="leyenda-text">"Evento concertado"</div>
-        </div>
+        </div> */}
       </div>
       <div className="calendario">
         <Calendar
@@ -96,7 +96,7 @@ const Horarios = () => {
           }
         />
       </div>
-      <div className="tituloEvento">
+      {/* <div className="tituloEvento">
         <p className="textoTituloEvento">
           No te pierdas nuestros PRÓXIMOS EVENTOS
           <p className="pInfoEventos">
@@ -114,9 +114,9 @@ const Horarios = () => {
             <h1 style={{ color: "white" }}>El Bomba</h1>
           </div>
           <div className="informacion">
-            <p className="p-Informacion" style={{ color: "white" }}>
+            <p className="p-Informacion" style={{ color: "white" }}> */}
               {/* <h2 className="h2-Informacion">El artista:</h2> */}
-              <h4>
+              {/* <h4>
                 Rafael Ruiz (El Bomba)
                 <br /> - Semifinalista de "La Voz" 2020. <br />
                 <br />- Finalista de la 6ª edición "Tierra de Talentos" 2022.
@@ -125,16 +125,16 @@ const Horarios = () => {
               <h4 className="eventoRRSS">
                 <a href="https://www.youtube.com/watch?v=utvkxaEbwpE">
                   <img className="logoYT" src={YT} alt="YT logo" />
-                </a>
-                <a href="https://buy.stripe.com/eVag1a2Q441C8iQ6op">
+                </a> */}
+                {/* <a href="https://buy.stripe.com/eVag1a2Q441C8iQ6op">
                   <img className="logoIG" src={QRB} alt="IG logo" />
-                </a>
-                <a href="https://buy.stripe.com/eVag1a2Q441C8iQ6op">
+                </a> */}
+                {/* <a href="https://buy.stripe.com/eVag1a2Q441C8iQ6op">
                   <img className="logoIG" src={IG} alt="IG logo" />
                 </a>
               </h4>
               
-              <h2 className="h2-Informacion">PRÓXIMAMENTE</h2>
+              <h2 className="h2-Informacion">PRÓXIMAMENTE</h2> */}
               {/* <div className="QRB">
           <img src={QRB} alt="QR pago" />
         </div> */}
@@ -148,11 +148,11 @@ const Horarios = () => {
               </h4>
               <h2 className="h2-Informacion">Fecha:</h2>
               <h4 className="h4-Informacion"> Proximamente </h4> */}
-            </p>
+            {/* </p>
           </div>
         </div>
       </div>
-      <div className="separadorEventos"></div>
+      <div className="separadorEventos"></div> */}
 
       {/* <div className="evento-container">
         <div className="evento-imagen">
@@ -205,7 +205,7 @@ const Horarios = () => {
         </div>
       </div> */}
 
-      <div className="separadorEventos"></div>
+      {/* <div className="separadorEventos"></div>
 
       <div className="evento-container">
         <div className="evento-imagen">
@@ -219,25 +219,25 @@ const Horarios = () => {
             <p
               className="p-Informacion"
               style={{ color: "white", fontSize: "3vh", paddingTop: "1vh" }}
-            >
+            > */}
               {/* <h2 className="h2-Informacion">Los artistas:</h2> */}
-              <h4 className="h4Zam" style={{ width: "80%" }}>
+              {/* <h4 className="h4Zam" style={{ width: "80%" }}>
                 Sumérgete en la magia de la música tradicional española mientras
                 te transportamos las vibraciones de Andalucía. Nuestra Zambomba
                 Flamenca es una celebración de la vida y la cultura, llena de
                 ritmo contagioso y pasión desbordante.
               </h4>
               <br />
-              <h4 className="eventoRRSS">
+              <h4 className="eventoRRSS"> */}
                 {/* <a href="https://www.youtube.com/watch?v=utvkxaEbwpE">
                   <img className="logoYT" src={YT} alt="YT logo" />
                 </a>
                 <a href="https://www.instagram.com/rafaelruiz_elbomba/?hl=es">
                   <img className="logoIG" src={IG} alt="IG logo" />
                 </a> */}
-              </h4>
+              {/* </h4> */}
               {/* <h2 className="h2-Informacion">Hora:</h2> */}
-              <h4 className="h4-Informacion"> </h4>
+              {/* <h4 className="h4-Informacion"> </h4>
               <h2 className="h2-Informacion" style={{ margin: "-3vh" }}>
                 Precio:
               </h2>
@@ -253,7 +253,7 @@ const Horarios = () => {
           </div>
         </div>
       </div>
-      <div className="separadorEventos"></div>
+      <div className="separadorEventos"></div> */}
     </div>
   );
 };

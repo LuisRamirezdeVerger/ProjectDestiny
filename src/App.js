@@ -22,7 +22,7 @@ const App = () => {
               <ul className="navList">
                 <li className='liApp'><Link to ="nosotros">Nosotros</Link></li>
                 <li className='liApp'><Link to ="galeria">Galería</Link></li>
-                <li className='liApp'><Link to ="horarios">Disponibilidad y eventos</Link></li>
+                <li className='liApp'><Link to ="horarios">Disponibilidad</Link></li>
                 {/*<li ><Link to ="celebraciones">Celebraciones realizadas</Link></li>*/}
                 {/* <li ><Link to ="calendario">Calendario de eventos</Link></li> */}
                 {/* <li ><Link to ="tarifas">Tarifas</Link></li> */}
