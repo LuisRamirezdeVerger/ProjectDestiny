@@ -9,16 +9,15 @@ const MiSitio = () => {
         </h1>
 
         <p className="pTexto">
-          Tu destino de eventos y celebraciones excepcionales. Somos una empresa
-          especializada en la organización de eventos y alquiler de espacios,
+          Tu destino de celebraciones excepcionales. Somos una empresa
+          especializada en el alquiler de espacios,
           ofreciendo una nueva alternativa moderna para que vivas momentos
           inolvidables.
         </p>
 
         <p className="pTexto">
           Nuestro enfoque y filosofía se centran en brindarte un lugar
-          visualmente espectacular y llamativo, donde podrás disfrutar de
-          eventos pre-planificados o reservar el local para celebrar tu propia
+          visualmente espectacular y llamativo, donde podrás reservar el local para celebrar tu propia
           fiesta, reunión, meeting o conferencia.
         </p>
 

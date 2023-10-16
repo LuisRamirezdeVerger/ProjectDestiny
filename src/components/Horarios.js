@@ -15,24 +15,37 @@ const Horarios = () => {
     //Lógica para cambiar el color del día
     const day = date.getDate();
     const month = date.getMonth();
+    const year = date.getYear();
 
     //Función para cambiar el color del día
     //Recuerda que Enero es el 0
-    if (month === 10) {
-      if (day >= 5 && day <= 8) {
-        return "green";
-      } else if (day === 4 || day === 18 || day === 25) {
-        return "green";
-      } else if (day === 3) {
-        return "green";
-      }
+    // if (month === 10) {
+    //   if (day >= 5 && day <= 8) {
+    //     return "green";
+    //   } else if (day === 4 || day === 18 || day === 25) {
+    //     return "green";
+    //   } else if (day === 3) {
+    //     return "green";
+    //   }
+    // }
+
+    if (month === 0 || month === 1 || month === 2)  {
+      return "green";
     }
 
-    if (month <= 9) {
+    if (month <= 10 || month === 0) {
       return "red";
     }
 
-    if (month === 11) {
+    if (year === 2023) {
+      return "green";
+    }
+
+    if (month === 0) {
+      return "green";
+    }
+
+    if (month === 10) {
       if (
         day === 6 ||
         day === 14 ||
@@ -43,11 +56,11 @@ const Horarios = () => {
         day === 29 ||
         day === 30
       ) {
-        return "green";
+        return "red";
       } else if ((day >= 19 && day <= 21) || (day >= 26 && day <= 28)) {
-        return "green";
+        return "red";
       } else if (day === 3) {
-        return "green";
+        return "red";
       }
     }
 
